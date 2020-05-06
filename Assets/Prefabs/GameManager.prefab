@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c58634086380d734c8c82e6b550af923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystickEnabled: 1
+  joystickEnabled: 0
   joystickMaster: {fileID: 8966087438222840319}
   regularJoystick:
   - {fileID: 7077112211849530796}

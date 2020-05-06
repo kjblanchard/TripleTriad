@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Ash
+  m_EditorClassIdentifier: 
+  cardID: 58
+  description: Gotta catch 'em all
+  cardsRarity: 2
+  cardName: Ash
+  playerImage: {fileID: 21300000, guid: 272645320e8cdbb43a90f400bf879c27, type: 3}
+  enemyImage: {fileID: 21300000, guid: 3b2ab4c29f6af6b43a3a7a0456bc0086, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 0
+  percentChanceForEnemyToUseInBattle: 0
+  cardValues: 09000000060000000200000008000000

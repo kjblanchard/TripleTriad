@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Peach
+  m_EditorClassIdentifier: 
+  cardID: 45
+  description: Booty Bump
+  cardsRarity: 1
+  cardName: Peach
+  playerImage: {fileID: 21300000, guid: dc9048f1d1b3a9647b815433654422cb, type: 3}
+  enemyImage: {fileID: 21300000, guid: 15c75a5f2fa24504ebdc3fd98ba74143, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 0
+  percentChanceForEnemyToUseInBattle: 0
+  cardValues: 08000000030000000500000008000000

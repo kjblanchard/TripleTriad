@@ -1,0 +1,409 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>API Reference</title>
+
+    <style>
+      .highlight table td { padding: 5px; }
+.highlight table pre { margin: 0; }
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #f6aa11;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #75715e;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c, .highlight .cd {
+  color: #75715e;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #66d9ef;
+}
+.highlight .kd {
+  color: #66d9ef;
+}
+.highlight .kr {
+  color: #66d9ef;
+}
+.highlight .no {
+  color: #66d9ef;
+}
+.highlight .kt {
+  color: #66d9ef;
+}
+.highlight .mf {
+  color: #ae81ff;
+}
+.highlight .mh {
+  color: #ae81ff;
+}
+.highlight .il {
+  color: #ae81ff;
+}
+.highlight .mi {
+  color: #ae81ff;
+}
+.highlight .mo {
+  color: #ae81ff;
+}
+.highlight .m, .highlight .mb, .highlight .mx {
+  color: #ae81ff;
+}
+.highlight .sc {
+  color: #ae81ff;
+}
+.highlight .se {
+  color: #ae81ff;
+}
+.highlight .ss {
+  color: #ae81ff;
+}
+.highlight .sd {
+  color: #e6db74;
+}
+.highlight .s2 {
+  color: #e6db74;
+}
+.highlight .sb {
+  color: #e6db74;
+}
+.highlight .sh {
+  color: #e6db74;
+}
+.highlight .si {
+  color: #e6db74;
+}
+.highlight .sx {
+  color: #e6db74;
+}
+.highlight .s1 {
+  color: #e6db74;
+}
+.highlight .s {
+  color: #e6db74;
+}
+.highlight .na {
+  color: #a6e22e;
+}
+.highlight .nc {
+  color: #a6e22e;
+}
+.highlight .nd {
+  color: #a6e22e;
+}
+.highlight .ne {
+  color: #a6e22e;
+}
+.highlight .nf {
+  color: #a6e22e;
+}
+.highlight .vc {
+  color: #ffffff;
+}
+.highlight .nn {
+  color: #ffffff;
+}
+.highlight .nl {
+  color: #ffffff;
+}
+.highlight .ni {
+  color: #ffffff;
+}
+.highlight .bp {
+  color: #ffffff;
+}
+.highlight .vg {
+  color: #ffffff;
+}
+.highlight .vi {
+  color: #ffffff;
+}
+.highlight .nv {
+  color: #ffffff;
+}
+.highlight .w {
+  color: #ffffff;
+}
+.highlight {
+  color: #ffffff;
+}
+.highlight .n, .highlight .py, .highlight .nx {
+  color: #ffffff;
+}
+.highlight .ow {
+  color: #f92672;
+}
+.highlight .nt {
+  color: #f92672;
+}
+.highlight .k, .highlight .kv {
+  color: #f92672;
+}
+.highlight .kn {
+  color: #f92672;
+}
+.highlight .kp {
+  color: #f92672;
+}
+.highlight .o {
+  color: #f92672;
+}
+    </style>
+    <link href="stylesheets/screen.css" rel="stylesheet" media="screen" />
+    <link href="stylesheets/print.css" rel="stylesheet" media="print" />
+      <script src="javascripts/all.js"></script>
+  </head>
+
+  <body class="index" data-languages="[&quot;csharp&quot;]">
+    <a href="#" id="nav-button">
+      <span>
+        NAV
+        <img src="images/navbar.png" alt="Navbar" />
+      </span>
+    </a>
+    <div class="toc-wrapper">
+      <img src="images/logo.png" class="logo" alt="Logo" />
+        <div class="lang-selector">
+              <a href="#" data-language-name="csharp">csharp</a>
+        </div>
+        <div class="search">
+          <input type="text" class="search" id="input-search" placeholder="Search">
+        </div>
+        <ul class="search-results"></ul>
+      <div id="toc" class="toc-list-h1">
+          <li>
+            <a href="#introloop-api-documentation" class="toc-h1 toc-link" data-title="Introloop API Documentation">Introloop API Documentation</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#introloopplayer" class="toc-h2 toc-link" data-title="IntroloopPlayer">IntroloopPlayer</a>
+                  </li>
+                  <li>
+                    <a href="#introloopplayer-lt-t-gt" class="toc-h2 toc-link" data-title="IntroloopPlayer&lt;T&gt;">IntroloopPlayer&lt;T&gt;</a>
+                  </li>
+                  <li>
+                    <a href="#introloopsettings" class="toc-h2 toc-link" data-title="IntroloopSettings">IntroloopSettings</a>
+                  </li>
+              </ul>
+          </li>
+      </div>
+        <ul class="toc-footer">
+            <li><a href='http://exceed7.com/introloop'>Introloop Homepage</a></li>
+            <li><a href='http://exceed7.com'>Exceed7 Experiments</a></li>
+            <li><a href='http://5argon.info'>5argon</a></li>
+        </ul>
+    </div>
+    <div class="page-wrapper">
+      <div class="dark-box"></div>
+      <div class="content">
+        <h1 id='introloop-api-documentation'>Introloop API Documentation</h1>
+<p>Welcome! Please see <a href="http://exceed7.com/introloop/getting-started.html">the getting started guide</a> to get a general idea of how Introloop should be used.</p>
+<h2 id='introloopplayer'>IntroloopPlayer</h2>
+<p>The main class.</p>
+<h3 id='introloopplayer-instance'>IntroloopPlayer.Instance</h3>
+<p>Singleton pattern point of access. Get the IntroloopPlayer instance. If you have multiple subclasses of IntroloopPlayer you should use <code>YourClass.Get</code> instead. (See IntroloopPlayer&lt;T&gt;)</p>
+<h3 id='introloopplayer-pause'>IntroloopPlayer.Pause</h3>
+<p>Stop the currently playing IntroloopAudio instantly without unloading. You will be able to use Resume() to continue later.</p>
+<h3 id='introloopplayer-pausefade'>IntroloopPlayer.PauseFade</h3>
+<p>Stop the currently playing IntroloopAudio without unloading with fade length specified by default length in IntroloopSettings component. You will be able to use Resume() to continue later.</p>
+<h3 id='introloopplayer-pausefade-fadelengthseconds'>IntroloopPlayer.PauseFade(fadeLengthSeconds)</h3>
+<p>Stop the currently playing IntroloopAudio without unloading with fade length specified by the argument. You will be able to use Resume() to continue later.</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>fadeLengthSeconds</td>
+<td><em>float</em><br>Fade out length to use.</td>
+</tr>
+</tbody></table>
+<h3 id='introloopplayer-play-audio'>IntroloopPlayer.Play(audio)</h3>
+<p>Play an audio using settings specified in IntroloopAudio file&#39;s inspector area.</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>audio</td>
+<td><em>IntroloopAudio</em><br>An IntroloopAudio asset file to play.</td>
+</tr>
+</tbody></table>
+<h3 id='introloopplayer-playfade-audio-fadelengthseconds'>IntroloopPlayer.PlayFade(audio, fadeLengthSeconds)</h3>
+<p>Play an audio using settings specified in IntroloopAudio file&#39;s inspector area with fade-in or cross fade (if other IntroloopAudio is playing) of length specified by argument.</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>audio</td>
+<td><em>IntroloopAudio</em><br>An IntroloopAudio asset file to play.</td>
+</tr>
+<tr>
+<td>fadeLengthSeconds</td>
+<td><em>float</em><br>Fade in/cross fade length to use.</td>
+</tr>
+</tbody></table>
+<h3 id='introloopplayer-playfade-audio'>IntroloopPlayer.PlayFade(audio)</h3>
+<p>Play an audio using settings specified in IntroloopAudio file&#39;s inspector area with fade-in or cross fade (if other IntroloopAudio is playing) of default length specified in IntroloopSettings component that is attached to the IntroloopPlayer.</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>audio</td>
+<td><em>IntroloopAudio</em><br>An IntroloopAudio asset file to play.</td>
+</tr>
+</tbody></table>
+<h3 id='introloopplayer-preload-introloopaudio'>IntroloopPlayer.Preload(IntroloopAudio)</h3>
+<p>An experimental feature in the case that you really want the audio to start in an instant you call Play. </p>
+
+<p>By normally using Play and Stop it loads the audio the moment you called Play. It will introduces a small delay in the case of a large audio file. But by using this before actually calling Play it will be instant.</p>
+
+<p>However be aware that RAM is managed less efficiently in the following case. Normally Introloop immediately unloads the previous track to minimize memory, but if you use Preload then did not call Play with the same IntroloopAudio afterwards, the loaded memory will be unmanaged. (Just like if you tick &quot;Preload Audio Data&quot; on your clip and have them in a hierarchy somewhere, then did not use it.)</p>
+<h3 id='introloopplayer-resume'>IntroloopPlayer.Resume</h3>
+<p>Resume playing of a previously paused IntroloopAudio instantly.</p>
+<h3 id='introloopplayer-resumefade'>IntroloopPlayer.ResumeFade</h3>
+<p>Resume playing of a previously paused IntroloopAudio with fade in length specified in IntroloopSettings component.</p>
+<h3 id='introloopplayer-resumefade-fadelengthseconds'>IntroloopPlayer.ResumeFade(fadeLengthSeconds)</h3>
+<p>Resume playing of a previously paused IntroloopAudio with fade in length specified by argument in IntroloopSettings component.</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>fadeLengthSeconds</td>
+<td><em>float</em><br>Fade out length to use.</td>
+</tr>
+</tbody></table>
+<h3 id='introloopplayer-stop'>IntroloopPlayer.Stop</h3>
+<p>Stop the currently playing IntroloopAudio instantly, and unload that audio from memory.</p>
+<h3 id='introloopplayer-stopfade'>IntroloopPlayer.StopFade</h3>
+<p>Stop the currently playing IntroloopAudio with fade out length specified by default length in IntroloopSettings component. Unloads that audio from memory once the fade out finished.</p>
+<h3 id='introloopplayer-stopfade-fadelengthseconds'>IntroloopPlayer.StopFade(fadeLengthSeconds)</h3>
+<p>Stop the currently playing IntroloopAudio with fade out length specified by an argument. Unloads that audio from memory once the fade out finished.</p>
+
+<table><thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>fadeLengthSeconds</td>
+<td><em>float</em><br>Fade out length to use.</td>
+</tr>
+</tbody></table>
+<h2 id='introloopplayer-lt-t-gt'>IntroloopPlayer&lt;T&gt;</h2>
+<blockquote>
+<p>Implement your own custom subclass like this :</p>
+</blockquote>
+<pre class="highlight csharp tab-csharp"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">FieldBGMPlayer</span> <span class="p">:</span> <span class="n">IntroloopPlayer</span><span class="p">&lt;</span><span class="n">FieldBGMPlayer</span><span class="p">&gt;</span>
+<span class="p">{</span>
+    <span class="k">public</span> <span class="n">IntroloopAudio</span> <span class="n">desertTheme</span><span class="p">;</span>
+    <span class="k">public</span> <span class="k">void</span> <span class="nf">PlayDesertTheme</span><span class="p">(</span><span class="kt">bool</span> <span class="n">afterDungeon</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="nf">PlayFade</span><span class="p">(</span><span class="n">desertTheme</span><span class="p">,</span> <span class="n">afterDungeon</span> <span class="p">?</span> <span class="m">4.5f</span> <span class="p">:</span> <span class="m">0</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+<blockquote>
+<p>After making FieldBGMPlayer.prefab in your Resources/Introloop folder, you can now :</p>
+</blockquote>
+<pre class="highlight csharp tab-csharp"><code><span class="n">FieldBGMPlayer</span><span class="p">.</span><span class="n">Get</span><span class="p">.</span><span class="nf">PlayDesertTheme</span><span class="p">(</span><span class="k">true</span><span class="p">);</span>
+</code></pre>
+<blockquote>
+<p>Note the <code>Get</code>. It is not <code>Instance</code> like <code>IntroloopPlayer.Instance</code></p>
+</blockquote>
+
+<p><strong>This is a new feature in the next V3.0 (predocumented.. sorry)</strong></p>
+
+<p>Use this generic version for subclassing. You can then get it with YourClass.Get instead of IntroloopPlayer.Instance. Put your class itself into the T variable.</p>
+<h3 id='introloopplaye-lt-t-gt-get'>IntroloopPlaye&lt;T&gt;.Get</h3>
+<p>With Instance, it is of type IntroloopPlayer and you can feed it IntroloopAudio to play.</p>
+
+<p>With Get, you can get your own subclass of IntroloopPlayer. You can then define your own methods on them and do whatever you like, like FieldBGMPlayer.Get.PlayDesertTheme() instead of IntroloopPlayer.Instance.Play(desertTheme);</p>
+
+<p>It is useful for dividing the players into several parts. Like BGMPlayer, AmbientPlayer, etc. The difference from Instance is that Get does not support dynamic instantiation. If it could not find a template, an error will be thrown.</p>
+
+<p>The template&#39;s name was hardcoded as the same as your class name, T. If your class name is FieldBGMPlayer then you must have FieldBGMPlayer.prefab in the same location as IntroloopPlayer.prefab in Resources folder.</p>
+<h2 id='introloopsettings'>IntroloopSettings</h2>
+<p>This class should be attaced together with <code>IntroloopPlayer</code> on your template prefab.</p>
+<h3 id='introloopsettings-defaultfadelength'>IntroloopSettings.defaultFadeLength</h3>
+<p>Method with &quot;Fade&quot; and without fade time parameter will use this length.</p>
+<h3 id='introloopsettings-defaultgameobjectname'>IntroloopSettings.defaultGameObjectName</h3>
+<p>The first call to IntroloopPlayer.Instance will spawn a GameObject of this name in your scene.</p>
+<h3 id='introloopsettings-defaulttemplatepathwithoutfilename'>IntroloopSettings.defaultTemplatePathWithoutFileName</h3>
+<p>This is the path of IntroloopPlayer template relative to Resources folder.</p>
+<h3 id='introloopsettings-loginformation'>IntroloopSettings.logInformation</h3>
+<p>Check this in your IntroloopPlayer template to log various debug data.</p>
+
+      </div>
+      <div class="dark-box">
+          <div class="lang-selector">
+                <a href="#" data-language-name="csharp">csharp</a>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

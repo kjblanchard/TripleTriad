@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Aerith
+  m_EditorClassIdentifier: 
+  cardID: 56
+  description: The last ancient
+  cardsRarity: 2
+  cardName: Aerith
+  playerImage: {fileID: 21300000, guid: 0ffb124ad500e12488772bbdfbf41101, type: 3}
+  enemyImage: {fileID: 21300000, guid: 1f46e4f425359e041894060f36244a8f, type: 3}
+  amountOwned: 1
+  hasOwnedBefore: 0
+  percentChanceForEnemyToUseInBattle: 0
+  cardValues: 05000000010000000900000009000000

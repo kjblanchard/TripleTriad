@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Vader
+  m_EditorClassIdentifier: 
+  cardID: 108
+  description: Luke.. I am your.....????
+  cardsRarity: 3
+  cardName: Vader
+  playerImage: {fileID: 21300000, guid: 396b9dcdf95bcea418afb8ea08dbf006, type: 3}
+  enemyImage: {fileID: 21300000, guid: 327da813f5f84894398bb8f25d543fd1, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 1
+  percentChanceForEnemyToUseInBattle: 30
+  cardValues: 07000000070000000700000007000000

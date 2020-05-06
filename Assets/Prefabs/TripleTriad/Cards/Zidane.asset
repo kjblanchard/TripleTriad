@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Zidane
+  m_EditorClassIdentifier: 
+  cardID: 111
+  description: Thief? Player? ???
+  cardsRarity: 3
+  cardName: Zidane
+  playerImage: {fileID: 21300000, guid: 29b10c5945c766741b85316e142c34cd, type: 3}
+  enemyImage: {fileID: 21300000, guid: 95f10c8722621a54b870314005f34784, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 1
+  percentChanceForEnemyToUseInBattle: 30
+  cardValues: 07000000090000000700000009000000

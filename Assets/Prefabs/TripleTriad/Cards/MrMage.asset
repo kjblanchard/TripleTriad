@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: MrMage
+  m_EditorClassIdentifier: 
+  cardID: 22
+  description: I haz spell
+  cardsRarity: 0
+  cardName: Mr Mage
+  playerImage: {fileID: 21300000, guid: 9707dfd27a40a1f4b9a0f7438b8aaefe, type: 3}
+  enemyImage: {fileID: 21300000, guid: e3447233a59d82a4d8c629ae9f6b3dbd, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 0
+  percentChanceForEnemyToUseInBattle: 0
+  cardValues: 02000000030000000600000007000000

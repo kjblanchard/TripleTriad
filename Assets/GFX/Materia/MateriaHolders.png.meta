@@ -1,0 +1,3114 @@
+fileFormatVersion: 2
+guid: 96171fa2b217748549ddb6a6504fbf63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2276511886227471154
+    second: MateriaHolders_0
+  - first:
+      213: -100675314914369159
+    second: MateriaHolders_1
+  - first:
+      213: -4377401495850367760
+    second: MateriaHolders_2
+  - first:
+      213: 3618069585812781135
+    second: MateriaHolders_3
+  - first:
+      213: 407357471408936778
+    second: MateriaHolders_4
+  - first:
+      213: 3774438511183630638
+    second: MateriaHolders_5
+  - first:
+      213: 9096388382495117560
+    second: MateriaHolders_6
+  - first:
+      213: -577816409620451766
+    second: MateriaHolders_7
+  - first:
+      213: -2845071983998359710
+    second: MateriaHolders_8
+  - first:
+      213: -9186329898458278213
+    second: Standalone_Link_Left
+  - first:
+      213: 3984236080752715504
+    second: Support_Link_Left
+  - first:
+      213: -5002084909587303533
+    second: Skill_Link_Left
+  - first:
+      213: -8268768150265311212
+    second: Personal_Link-Left
+  - first:
+      213: -8119613250971753966
+    second: Magic_Link_Left
+  - first:
+      213: -8482321163136583817
+    second: Standalone_Single
+  - first:
+      213: 869390197434070320
+    second: MateriaHolders_15
+  - first:
+      213: -765572744813153927
+    second: Support_Single
+  - first:
+      213: -7999500176794531568
+    second: MateriaHolders_17
+  - first:
+      213: 8367301391114982030
+    second: Skill_Single
+  - first:
+      213: -5469391909993347673
+    second: MateriaHolders_19
+  - first:
+      213: -4526512119892973906
+    second: Personal_Single
+  - first:
+      213: 7669209840633397761
+    second: MateriaHolders_21
+  - first:
+      213: 7455053409508992865
+    second: Magic_Single
+  - first:
+      213: 647591926394032682
+    second: MateriaHolders_23
+  - first:
+      213: -2963035064849616180
+    second: MateriaHolders_24
+  - first:
+      213: -1731164602668424854
+    second: MateriaHolders_25
+  - first:
+      213: 8853566397322806709
+    second: MateriaHolders_26
+  - first:
+      213: 2856592031921707148
+    second: MateriaHolders_27
+  - first:
+      213: 5363067173939376961
+    second: MateriaHolders_28
+  - first:
+      213: 2153041624971634241
+    second: StandaloneMateria
+  - first:
+      213: 8291009986297340889
+    second: MateriaHolders_30
+  - first:
+      213: -2484967596961136071
+    second: MateriaHolders_31
+  - first:
+      213: 6074219788590105159
+    second: MateriaHolders_32
+  - first:
+      213: 43058863380381381
+    second: MateriaHolders_33
+  - first:
+      213: 5069483823953319388
+    second: MateriaHolders_34
+  - first:
+      213: -6566322242783078841
+    second: MateriaHolders_35
+  - first:
+      213: 412422221952132656
+    second: MateriaHolders_36
+  - first:
+      213: -5532410917692546856
+    second: MateriaHolders_37
+  - first:
+      213: -4490364945622183955
+    second: MateriaHolders_38
+  - first:
+      213: -8560749833250307527
+    second: MateriaHolders_39
+  - first:
+      213: 812960049603169898
+    second: MateriaHolders_40
+  - first:
+      213: -688068892691472802
+    second: MateriaHolders_41
+  - first:
+      213: -1672298829217401868
+    second: MateriaHolders_42
+  - first:
+      213: 4327003322401655189
+    second: SkillMateria
+  - first:
+      213: -9042013999207655626
+    second: MateriaHolders_44
+  - first:
+      213: 2953391928764263120
+    second: MateriaHolders_45
+  - first:
+      213: 1856672893257631699
+    second: MateriaHolders_46
+  - first:
+      213: 7362410115517884708
+    second: MateriaHolders_47
+  - first:
+      213: 8911249576378393689
+    second: MateriaHolders_48
+  - first:
+      213: 4007366849149816147
+    second: MateriaHolders_49
+  - first:
+      213: 8021097435037929042
+    second: MateriaHolders_50
+  - first:
+      213: -5576570471921829729
+    second: MateriaHolders_51
+  - first:
+      213: 2526894445708909591
+    second: MateriaHolders_52
+  - first:
+      213: 8599128597282602044
+    second: MateriaHolders_53
+  - first:
+      213: -4823848265848244040
+    second: MateriaHolders_54
+  - first:
+      213: -3398681009927841661
+    second: MagicMateria
+  - first:
+      213: -2009589752503599954
+    second: MateriaHolders_56
+  - first:
+      213: 2669240009493518335
+    second: MateriaHolders_57
+  - first:
+      213: -4914350467959843488
+    second: MateriaHolders_58
+  - first:
+      213: -6171976653290752733
+    second: MateriaHolders_59
+  - first:
+      213: 1116759198530667324
+    second: MateriaHolders_60
+  - first:
+      213: -8858414527706459495
+    second: MateriaHolders_61
+  - first:
+      213: -8267841251947970098
+    second: MateriaHolders_62
+  - first:
+      213: -8313331886068293747
+    second: MateriaHolders_63
+  - first:
+      213: 3434247658650692961
+    second: MateriaHolders_64
+  - first:
+      213: -7847000029296790766
+    second: Empty_Single
+  - first:
+      213: 6413575487499251313
+    second: Empty_Link_Left
+  - first:
+      213: 7036208246843929249
+    second: SupportMateria
+  - first:
+      213: 1734774872783068359
+    second: MateriaHolders_68
+  - first:
+      213: 985372961507499186
+    second: MateriaHolders_69
+  - first:
+      213: 1952651335506469036
+    second: MateriaHolders_70
+  - first:
+      213: 8888522837999294459
+    second: MateriaHolders_71
+  - first:
+      213: 8981146566331025138
+    second: MateriaHolders_72
+  - first:
+      213: -8696697556251328747
+    second: MateriaHolders_73
+  - first:
+      213: 5259131551439002398
+    second: MateriaHolders_74
+  - first:
+      213: 5196360291822450938
+    second: MateriaHolders_75
+  - first:
+      213: -106175855552913620
+    second: MateriaHolders_76
+  - first:
+      213: -2935902433304276692
+    second: MateriaHolders_77
+  - first:
+      213: 7203950462804950335
+    second: MateriaHolders_78
+  - first:
+      213: 7086230649586348361
+    second: PersonalMateria
+  - first:
+      213: -5681403837457137212
+    second: MateriaHolders_80
+  - first:
+      213: 8686796338784703741
+    second: MateriaHolders_81
+  - first:
+      213: -2193425492579174513
+    second: MateriaHolders_82
+  - first:
+      213: -3402110575859732463
+    second: MateriaHolders_83
+  - first:
+      213: -7307015875486672034
+    second: MateriaHolders_84
+  - first:
+      213: 2740401718597442497
+    second: MateriaHolders_85
+  - first:
+      213: 1972154149555505070
+    second: MateriaHolders_86
+  - first:
+      213: 3912683539618160555
+    second: MateriaHolders_87
+  - first:
+      213: 886694834653956914
+    second: MateriaHolders_88
+  - first:
+      213: -2371522732782629809
+    second: MateriaHolders_89
+  - first:
+      213: -5916709145385159840
+    second: MateriaHolders_90
+  - first:
+      213: -3113190724650682081
+    second: MateriaHolders_91
+  - first:
+      213: -3215188621576499343
+    second: MateriaHolders_92
+  - first:
+      213: -7250996088616494362
+    second: MateriaHolders_93
+  - first:
+      213: 1791500916215900654
+    second: MateriaHolders_94
+  - first:
+      213: 1925339054541008679
+    second: MateriaHolders_95
+  - first:
+      213: 4982400280335060687
+    second: MateriaHolders_96
+  - first:
+      213: -8102694170145997937
+    second: MateriaHolders_97
+  - first:
+      213: 3434689529150342884
+    second: MateriaHolders_98
+  - first:
+      213: 3407341015457939692
+    second: MateriaHolders_99
+  - first:
+      213: 2240839446515483342
+    second: MateriaHolders_100
+  - first:
+      213: 2335095796182151031
+    second: MateriaHolders_101
+  - first:
+      213: -7574691879171803703
+    second: MateriaHolders_102
+  - first:
+      213: -5718717265662721440
+    second: MateriaHolders_103
+  - first:
+      213: 268144467970955670
+    second: MateriaHolders_104
+  - first:
+      213: -6731292462543784222
+    second: MateriaHolders_105
+  - first:
+      213: -8364180216207269737
+    second: MateriaHolders_106
+  - first:
+      213: 8424187253380068586
+    second: MateriaHolders_107
+  - first:
+      213: -4517155808417657226
+    second: MateriaHolders_108
+  - first:
+      213: -1760833248942348250
+    second: MateriaHolders_109
+  - first:
+      213: -750657388843523563
+    second: MateriaHolders_110
+  - first:
+      213: 7228295127878897008
+    second: MateriaHolders_111
+  - first:
+      213: 837686923141391752
+    second: MateriaHolders_112
+  - first:
+      213: 2140459455682681402
+    second: MateriaHolders_113
+  - first:
+      213: 2153041624971634241
+    second: Standalone_Image
+  - first:
+      213: 4327003322401655189
+    second: Skill_Image
+  - first:
+      213: -3398681009927841661
+    second: Magic_Image
+  - first:
+      213: 7036208246843929249
+    second: Support_Image
+  - first:
+      213: 7086230649586348361
+    second: Personal_Image
+  - first:
+      213: -5966578117660466233
+    second: Standalone_Link_Right
+  - first:
+      213: -2124574801619163426
+    second: Support_Link_Right
+  - first:
+      213: 1707298911520409450
+    second: Skill_Link_Right
+  - first:
+      213: -6572972875080723399
+    second: Personal_Link_Right
+  - first:
+      213: -2131962471510605635
+    second: Magic_Link_Right
+  - first:
+      213: -5995977134226105931
+    second: MateriaHolders_119
+  - first:
+      213: 6851890665389244320
+    second: MateriaHolders_120
+  - first:
+      213: 8201917132286105601
+    second: MateriaHolders_121
+  - first:
+      213: -7379304520025633815
+    second: MateriaHolders_122
+  - first:
+      213: -7115332478039201124
+    second: Empty_Link_Right
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MateriaHolders_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b50ebe4c9fe4a77a2ba9f2b6e73533
+      internalID: 2276511886227471154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 91
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51460a6b1b324445d80a1662f821706c
+      internalID: -100675314914369159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_2
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 91
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5473c3050fcdb4e9aa97d9cf9bdb1d1a
+      internalID: -4377401495850367760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_3
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 91
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244386e11c1554c7db6eec74a8bc406a
+      internalID: 3618069585812781135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 91
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1eb7e35cbc904a3ba367eea3320e978
+      internalID: 407357471408936778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_5
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 91
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6e5df4db6b14f519ec4200f16f05d7
+      internalID: 3774438511183630638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 91
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca82bb2763692409bb333df91efd297b
+      internalID: 9096388382495117560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 91
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a14648ec95454dd6a58cf2bfc29174c
+      internalID: -577816409620451766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_8
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 91
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dd3968c47ea4276bb9188cea6f625f
+      internalID: -2845071983998359710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standalone_Link_Left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c9e2fd426c14acfa3ed85ba109e51a
+      internalID: -9186329898458278213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Support_Link_Left
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3755bf6e745841a69f7284a46f250a9
+      internalID: 3984236080752715504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Link_Left
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14c71eca66d546a094945fb96c9852e
+      internalID: -5002084909587303533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personal_Link-Left
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe01fa0cb4a844bc9bf2ebc6306f656
+      internalID: -8268768150265311212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Link_Left
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5776b0ccb52f4dedaad824d324a8db6
+      internalID: -8119613250971753966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standalone_Single
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5ce76d86db34bb79de89ce727a8584
+      internalID: -8482321163136583817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1693772edac414c13a679b8ef9b75f61
+      internalID: 869390197434070320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Support_Single
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604ae7acda8f840e6b6e59f6d987c85b
+      internalID: -765572744813153927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_17
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4c12b35c6c6454eaae20b2ca7f9ecd
+      internalID: -7999500176794531568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Single
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e7b69cf5bca4005b1028517e4f64c5
+      internalID: 8367301391114982030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b699e02e073c4af58aeb8c79454bbc8
+      internalID: -5469391909993347673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personal_Single
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d24b78a891624053a83b8151c019570
+      internalID: -4526512119892973906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be137ee876cf467c886215f48d8644d
+      internalID: 7669209840633397761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Single
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2835ec4298b214557bf685d64370d857
+      internalID: 7455053409508992865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_23
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 67
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4066e799e5ca94068b1e1eab982595d6
+      internalID: 647591926394032682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14cbf271facf419a8b54e5622134f1e
+      internalID: -2963035064849616180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_25
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47ba536cc45642768379250c4d3e473
+      internalID: -1731164602668424854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_26
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141a26f9cd6ad40f78701d1d869e4701
+      internalID: 8853566397322806709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_27
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9887001aabcdd4618b7c62736c806eab
+      internalID: 2856592031921707148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_28
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 55
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970a498e753264a729b1d8011160401b
+      internalID: 5363067173939376961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standalone_Image
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44554f2be66bb4056ab0264c2e54ccd8
+      internalID: 2153041624971634241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 47
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a615b9789c9ba4d74b644e35737cf06b
+      internalID: 8291009986297340889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421d24f308b384f64bfa01c6c26bc273
+      internalID: -2484967596961136071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_32
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 47
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265176646b3ef4cedb9c1ccab33ada44
+      internalID: 6074219788590105159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 47
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8df7c087ec24df4bf5c91fe1b475b0
+      internalID: 43058863380381381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 47
+        width: 18
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606c1dcb672c34d50a9bdd2d96ce5db3
+      internalID: 5069483823953319388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_35
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62c12b2f8931440daf5b76f5276d5df
+      internalID: -6566322242783078841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_36
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 47
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73829c9d13a94f0a96c2dcdc30c8960
+      internalID: 412422221952132656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_37
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 47
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6cc3e56289d4f9294a1dee654186f3
+      internalID: -5532410917692546856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_38
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 47
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd283b39575642738e0bdc483fa143c
+      internalID: -4490364945622183955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_39
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 47
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a308ed8e7e74ddbb022849cf54543a
+      internalID: -8560749833250307527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 47
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba38d6f22bd04a5195f983388049b5b
+      internalID: 812960049603169898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_41
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 47
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8690cd994475f41fcb435d7ec94be413
+      internalID: -688068892691472802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_42
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 36
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc5c7199571e4856a5b875c79c35ec4
+      internalID: -1672298829217401868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Image
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cd3eeb8879f490cae049acf2b901a4
+      internalID: 4327003322401655189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_44
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 38
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cea60b0cafd44101ae9ca3ebf41b3cc
+      internalID: -9042013999207655626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 38
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf4bd94b8ca84f6c82aa96f48b8cb6b
+      internalID: 2953391928764263120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_46
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 38
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7659dc8df8be54b86822588ec2363bb5
+      internalID: 1856672893257631699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_47
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 29
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8bee591e47a4aac9597ef2b0d4bbf7
+      internalID: 7362410115517884708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_48
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5d12fffda264835bd622d45fff628e
+      internalID: 8911249576378393689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_49
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 38
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7cd5ae036c548e98566073761cd17b
+      internalID: 4007366849149816147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_50
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 38
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc146ba8e2f74c24bd89f6135fc423d
+      internalID: 8021097435037929042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_51
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2c04f05a67648b48129e08fe19dffc
+      internalID: -5576570471921829729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_52
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 38
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194004f7b45fe46ae8cfed35f0069ee1
+      internalID: 2526894445708909591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_53
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 38
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34132bac6bef40a9badc0f8beb85a85
+      internalID: 8599128597282602044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_54
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 38
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e445f30a67a9c4f808c9c8b3ee6e8680
+      internalID: -4823848265848244040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Image
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357dc33a4725a496a8c608e6ea1697b9
+      internalID: -3398681009927841661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_56
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d761ab5a16d4db29accbad1c7b20e4
+      internalID: -2009589752503599954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 29
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc71a368668f4fc9bda42660f565ebe
+      internalID: 2669240009493518335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_58
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 29
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dcc2618d30f4a4a8d20fdfbc19962d
+      internalID: -4914350467959843488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_59
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13be14f48674c4daab51e2ce9a738052
+      internalID: -6171976653290752733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_60
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b219d0eae0d4fb1a443dd1c2766ca3
+      internalID: 1116759198530667324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_61
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 29
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d4fa1dd8f0143bf990846183e799cb
+      internalID: -8858414527706459495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_62
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 29
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3addd9a6b012437c8685ce678aac76b
+      internalID: -8267841251947970098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 29
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a9b98f3a0724b9c9a41f3c72097990
+      internalID: -8313331886068293747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_64
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 29
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52969cf1eb1d94eea9375c93f980d67e
+      internalID: 3434247658650692961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty_Single
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 22
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f48f892c6b924e33adb83f895dec871
+      internalID: -7847000029296790766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty_Link_Left
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbe72b07666749a8b232ea080efe8f9
+      internalID: 6413575487499251313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Support_Image
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd43e2f8c4f1144789cdbc1d882421d0
+      internalID: 7036208246843929249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_68
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 20
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2746c847077af4f52b9f6334ad9f89e9
+      internalID: 1734774872783068359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_69
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 20
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470782e1a87104379b0058e9bbd5b935
+      internalID: 985372961507499186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_70
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 20
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035bdd49ac75942d2be06c605241daea
+      internalID: 1952651335506469036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_71
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 20
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e47852215ae42bba97492c50eba8f4
+      internalID: 8888522837999294459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_72
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 11
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bc10abbf952465ca1ad6f5421abaad
+      internalID: 8981146566331025138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_73
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 20
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457b109846858429bb88ec61a4c130f3
+      internalID: -8696697556251328747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_74
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 20
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e9fbe15dcef4b43b91aeeb683b0567
+      internalID: 5259131551439002398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_75
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 20
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7bd7ed88da4ff89684527f8b3f3a4
+      internalID: 5196360291822450938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 20
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dc61028c297475a87217edeffa27c0
+      internalID: -106175855552913620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_77
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bbe5cc3d58542ee9007b9c2caa5027
+      internalID: -2935902433304276692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_78
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 10
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0f65e17fe6446b3a71dc8c51f46cd4
+      internalID: 7203950462804950335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personal_Image
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07c57be09d7241209a236c2653bd569
+      internalID: 7086230649586348361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_80
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 11
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbaaeadae57140e9bf6ea82dc6ca6b6
+      internalID: -5681403837457137212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_81
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a043a872a52437da359c546faa21b0
+      internalID: 8686796338784703741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_82
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f375d7957f03e4e5e9ff693fd6b8cd5d
+      internalID: -2193425492579174513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_83
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 11
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5bb94f5b0234defabb150a4b7f6c89
+      internalID: -3402110575859732463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_84
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 11
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041bb5f4cb2ee41fc81c7e2e1df3e061
+      internalID: -7307015875486672034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_85
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 11
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ac9ec1e9d984499be3777da077a864
+      internalID: 2740401718597442497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_86
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 11
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a225aaa6b0cc34395902a2ce294df33c
+      internalID: 1972154149555505070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_87
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 11
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd18b336dce6f45b395587373e6a3765
+      internalID: 3912683539618160555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_88
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 11
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03df0e728ef10480bb4ade06d9d383d4
+      internalID: 886694834653956914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_89
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 11
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb48adf88b3b24d8783a04fce4bcafb6
+      internalID: -2371522732782629809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_90
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 11
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d48b947fbe440c2aa257af78768d8b
+      internalID: -5916709145385159840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_91
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 11
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eab93b753c049a8afbce32ad988365
+      internalID: -3113190724650682081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e2f8fdd2bf04fc88430ff908d03084
+      internalID: -3215188621576499343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_93
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1b8ebf962614d7f884ab56adb17b71
+      internalID: -7250996088616494362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_94
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4bf4fac4cc5483d87aba36d780c7d3
+      internalID: 1791500916215900654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_95
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49a78b6a5f194e96875a385a57ac692
+      internalID: 1925339054541008679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_96
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032316cba014b459fa2d914284a22656
+      internalID: 4982400280335060687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de107ffb625dd4d5b9c45156a4d9c6a6
+      internalID: -8102694170145997937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_98
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6331424688f48228d95bc74a5224e7
+      internalID: 3434689529150342884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_99
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f78d8589d4e47988e72aac6b5f407b
+      internalID: 3407341015457939692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_100
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5828a03a3173649a4bdee8a4f11bbf59
+      internalID: 2240839446515483342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_101
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e37e35eef98245029110040a896ceca
+      internalID: 2335095796182151031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_102
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba7f4fdbd7054d54b462121b10bdaf8
+      internalID: -7574691879171803703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_103
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089e2d92974f648fbbec51684902b443
+      internalID: -5718717265662721440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_104
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c134a2cb513d14ff692a52178feb3548
+      internalID: 268144467970955670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_105
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ab760f3e1714812b214bdd74571e4d
+      internalID: -6731292462543784222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_106
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8306a34b3dbf348a2a95c03275d49c37
+      internalID: -8364180216207269737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_107
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a45ff6878fea4e62b6794649ab228e1
+      internalID: 8424187253380068586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_108
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa512103f3d0462eb6dacb10eb0516a
+      internalID: -4517155808417657226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_109
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da570b916f3143ad91b547a78dbf126
+      internalID: -1760833248942348250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_110
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8965b93374e480ea8c378f7668e7d4
+      internalID: -750657388843523563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_111
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0741abadcef6b42ed860afdeea3b724a
+      internalID: 7228295127878897008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_112
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a0a62532ead4901ae2afad63ffc865
+      internalID: 837686923141391752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_113
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d380ce7cb69ec484797939dd443f8699
+      internalID: 2140459455682681402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Standalone_Link_Right
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78aa16f0a3ba4c15a5e0ead83571127
+      internalID: -5966578117660466233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Support_Link_Right
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f2f6a9ba1084c14b5ad1e2bd6f45c5
+      internalID: -2124574801619163426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Skill_Link_Right
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e1217f8d866409ab46f0a7f320a14a
+      internalID: 1707298911520409450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Personal_Link_Right
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd58d78745984462b8ad21428f2b236
+      internalID: -6572972875080723399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magic_Link_Right
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 79
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc653b4bed8244408a86eb4fff5696d
+      internalID: -2131962471510605635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_119
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0d3cba41d53428c8366927e553d536
+      internalID: -5995977134226105931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_120
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c67366e8e24b4810886a2e92d9f8938
+      internalID: 6851890665389244320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_121
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995dc2df288f4466ea4b8d754ff3502b
+      internalID: 8201917132286105601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MateriaHolders_122
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 55
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d18c94f179bc4f44919757ee4341bd7
+      internalID: -7379304520025633815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Empty_Link_Right
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 22
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0419f3aaf0242fe81222164bbea1d3
+      internalID: -7115332478039201124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2e1674927d87f41d29292a1309c93a7d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Cory
+  m_EditorClassIdentifier: 
+  cardID: 200
+  description: Plays 1 game 4 lyf
+  cardsRarity: 3
+  cardName: Cory
+  playerImage: {fileID: 21300000, guid: 9ac7a85ed8ea9db4eaabc9a505b10b3d, type: 3}
+  enemyImage: {fileID: 21300000, guid: 9ed6ae4a17f89d648bc2fd93439c2205, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 0
+  percentChanceForEnemyToUseInBattle: 0
+  cardValues: 0a00000003000000080000000a000000

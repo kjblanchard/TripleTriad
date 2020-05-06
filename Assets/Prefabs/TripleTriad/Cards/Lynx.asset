@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Lynx
+  m_EditorClassIdentifier: 
+  cardID: 69
+  description: Not Serge
+  cardsRarity: 2
+  cardName: Lynx
+  playerImage: {fileID: 21300000, guid: 97036351d81b7a94ca2abf56b0bd7be6, type: 3}
+  enemyImage: {fileID: 21300000, guid: cb1bb4561c654c84b9799f0512c027a6, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 1
+  percentChanceForEnemyToUseInBattle: 100
+  cardValues: 04000000060000000900000005000000

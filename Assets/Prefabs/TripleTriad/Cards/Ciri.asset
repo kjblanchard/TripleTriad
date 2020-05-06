@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Ciri
+  m_EditorClassIdentifier: 
+  cardID: 82
+  description: Geralt shod me da wai
+  cardsRarity: 3
+  cardName: Ciri
+  playerImage: {fileID: 21300000, guid: 21c50e63a700f884b8f783eba653ffc8, type: 3}
+  enemyImage: {fileID: 21300000, guid: a6d92c3a675238942b30e42ad5371327, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 1
+  percentChanceForEnemyToUseInBattle: 100
+  cardValues: 0100000009000000060000000a000000

@@ -1,0 +1,14 @@
+{
+    "name": "com.e7.introloop",
+    "author": "Sirawat Pitaksarit (5argon) - Exceed7 Experiments",
+    "displayName": "Introloop",
+    "version": "4.1.0",
+    "unity": "2017.1",
+    "description": "Easily play looping music with intro section, without physically cutting them.",
+    "keywords": [
+        "scripting",
+        "audio",
+        "loop",
+        "seamless"
+    ]
+}

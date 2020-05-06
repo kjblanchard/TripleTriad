@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126dde21535b456498c1fa43234e94ab, type: 3}
+  m_Name: Lightning
+  m_EditorClassIdentifier: 
+  cardID: 65
+  description: Light IT UP
+  cardsRarity: 2
+  cardName: Lightning
+  playerImage: {fileID: 21300000, guid: 9f9bbc2b7a271b64389abe820090c7d9, type: 3}
+  enemyImage: {fileID: 21300000, guid: b477a15d4ed1d2b46aa9a0ec7320f023, type: 3}
+  amountOwned: 0
+  hasOwnedBefore: 1
+  percentChanceForEnemyToUseInBattle: 100
+  cardValues: 07000000090000000700000009000000

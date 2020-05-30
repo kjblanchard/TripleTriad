@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,8 +11,6 @@ namespace ETF.TripleTriad
 		#region Configuration
 
 		[Header("Showing Rules Stuff")] 
-		// [SerializeField]
-		// private Canvas _tripleTriadFullCanvas;
 		[SerializeField]
 		private Canvas _showingRulesCanvas;
 		[SerializeField] private Transform[] _showingRulesFingerLocations;

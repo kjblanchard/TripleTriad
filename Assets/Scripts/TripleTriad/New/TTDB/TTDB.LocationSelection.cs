@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -74,9 +72,7 @@ namespace ETF.TripleTriad
 			_myCurrentHandTripleTriadCards.RemoveAt(_playerTurnCurrentSelection);
 			for (int i = _playerTurnCurrentSelection; i < _myCurrentHandTripleTriadCards.Count; i++)
 			{
-				//_myCurrentHandTripleTriadCards[i].positionInCardHand--;
 				_myCurrentHandTripleTriadCards[i].MoveCardUpOneSpot();
-				//_myCurrentHandTripleTriadCards[i].MoveToNewLocationInHandWhenCardIsPlayed(_myCurrentHandTripleTriadCards[i].positionInCardHand);
 			}
 		}
 

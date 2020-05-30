@@ -106,23 +106,15 @@ namespace ETF.TripleTriad
                 //cpu chooses reward
                 var cpuCard =  ttMan.ttLogic.EnemyRewardSelection();
                 ttMan.ttDb.RetrievePlayerTripleTriadCardAtLocation(cpuCard).cardAnimator.SetTrigger("cardFlip");
-                //ttMan.SendStateChange(ttMan.rewardSelectedState,cpuCard);
             }
 
 
         }
-
-
         
         public void StartEndGameFadeOut()
         {
             ttMan.SendStateChange(ttMan.gameEndedState);
-            //ttMan.ttUi.FinishedGameFadeOut();
         }
-        
-
-
-        
         
     }
 

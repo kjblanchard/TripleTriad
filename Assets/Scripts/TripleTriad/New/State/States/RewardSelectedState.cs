@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -26,7 +24,6 @@ namespace ETF.TripleTriad
 					_ttMan.ttDb.RetrieveNumberOfCurrentSelectionInRewardSelection()];
 				_ttMan.ttUi.InitializeRewardSelectedUiWin(_wonCard.whatCardIAm.cardName);
 				_wonCard.cardAnimator.SetTrigger("rewardSelected");
-				//SoundManager.instance.PlaySFX(6);
 			}
 			else
 			{//enemy won

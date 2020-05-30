@@ -85,10 +85,7 @@ namespace ETF.TripleTriad
 		{
 			_endGameCanvas.enabled = false;
 			_scoreDisplayCanvas.enabled = false;
-			//enemyHandDialogBoxAnimator.gameObject.SetActive(false);
-			//_cardRewardCanvas.enabled = true;
 			UpdateTextInInfoPanelRewardSelection();
-			// print("done");
 		}
 
 		public void TurnOnCardRewardCanvas()
@@ -108,7 +105,7 @@ namespace ETF.TripleTriad
 				}
 
 				locationSelectionFinger.transform.position =
-					ttdb.RetrieveCursorPositionInRewardScreen().position;// [ttdb.RetrievePlayerTurnCurrentSelection()].transform.position;
+					ttdb.RetrieveCursorPositionInRewardScreen().position;
 			}
 			else
 			{

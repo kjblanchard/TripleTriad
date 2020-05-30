@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace ETF.TripleTriad
@@ -66,7 +64,6 @@ namespace ETF.TripleTriad
 			else
 			{
 				ttdb.RetrieveTripleTriadCardInBoardSelection(boardLocation).ChangeImageToEnemy();
-				//print(ttMan.RetrieveCurrentState());
 			}
 			ttdb.RetrieveTripleTriadCardInBoardSelection(boardLocation).MoveToBoard();
 		}

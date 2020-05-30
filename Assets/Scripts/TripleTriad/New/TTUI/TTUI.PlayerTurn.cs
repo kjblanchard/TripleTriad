@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -10,8 +8,6 @@ namespace ETF.TripleTriad
 
         public void InitializePlayerTurnCanvas()
         {
-            // enemyHandDialogBoxAnimator.gameObject.SetActive(false);
-            // locationSelectionFinger.SetActive(false);
             setFocusOnPlayerCardSelected();
             _infoPanelCanvas.enabled = false;
         }
@@ -46,13 +42,11 @@ namespace ETF.TripleTriad
         public void setFocusOnPlayerCardSelected()
         {
             ttdb.RetrieveTripleTriadCardInPlayerSelection().cardAnimator.SetTrigger("inFocus");
-            //myHandCardAnimators[ttdb.RetrievePlayerTurnCurrentSelection()].SetTrigger("inFocus");
         }
 
         public void setOutFocusOnPlayerCardSelected()
         {
             ttdb.RetrieveTripleTriadCardInPlayerSelection().cardAnimator.SetTrigger("outFocus");
-            //myHandCardAnimators[ttdb.RetrievePlayerTurnCurrentSelection()].SetTrigger("outFocus");
 
         }
 

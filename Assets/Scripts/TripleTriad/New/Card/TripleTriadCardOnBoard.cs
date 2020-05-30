@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -15,7 +11,6 @@ namespace ETF.TripleTriad
         [SerializeField] public int[] myValueToCheck;
         [SerializeField] public int[] adjacencyValueToCheck;
         [SerializeField] public bool cardInPlay;
-        //[SerializeField] public Canvas cardCanvas;
 
 
         #endregion
@@ -52,11 +47,10 @@ namespace ETF.TripleTriad
                 ttMan.ttLogic.ttBoardLogic.CheckToSeeIfCardsAreFlippingForPlayer(ttMan.ttDb.RetrieveLocationSelectionCurrentSelection());
                 
             }
-            else //if (ttMan.RetrieveCurrentState() == ttMan.enemyTurnState)
+            else 
             {
                 ttMan.ttLogic.ttBoardLogic.CheckToSeeIfCardsAreFlippingForEnemy(ttMan.ttLogic.RetrieveBoardPositionToPlaceCard());
             }
-            //print($"current state is {ttMan.RetrieveCurrentState()}");
         }
 
         public void BoardCardFlipRight()
@@ -77,9 +71,6 @@ namespace ETF.TripleTriad
         }
 
         #endregion
-
-        
-
         
         
     }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -17,8 +15,6 @@ namespace ETF.TripleTriad
 
 		public override void Startup(int additionalArgs = 0)
 		{
-			//SoundManager.instance.PlayBGM(12);
-			//SoundManager.instance.CacheNextMusic(11);
 			_ttui = _ttMan.ttUi;
 			_ttui.InitializeTitleScreenUi();
 		}
@@ -44,7 +40,6 @@ namespace ETF.TripleTriad
 					_ttui.isLoading = true;
 					SoundManager.instance.PlaySFX(20);
 					_ttui.TitleScreenFadeOut();
-					//_ttMan.SendStateChange(_ttMan.opponentSelectState);
 				}
 			}
 		}

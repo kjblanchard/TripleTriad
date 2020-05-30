@@ -8,7 +8,6 @@ namespace ETF.TripleTriad
 
 		#region Configuration
 
-		//[SerializeField] private TripleTriadManager _ttMan;
 		private TTDB.MovementDirections _whichWayToMove;
 		private string[] _cheatCode;
 		private int _index;

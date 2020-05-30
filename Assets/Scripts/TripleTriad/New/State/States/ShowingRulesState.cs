@@ -11,7 +11,6 @@ namespace ETF.TripleTriad
 
 		#region Configuration
 
-		//[SerializeField] private TripleTriadManager _ttMan;
 
 		#endregion
 

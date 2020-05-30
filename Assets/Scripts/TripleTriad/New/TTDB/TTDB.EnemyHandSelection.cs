@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 namespace ETF.TripleTriad
@@ -44,9 +42,6 @@ namespace ETF.TripleTriad
             _typeOfEnemyPlayer = typeOfEnemyPlayer;
             _currentEnemyRareCards = currentEnemyRareCards;
             _whatToSayWhenTurnIsBeingSelected = turnSelectionText;
-           // _whatToSayWhenPlayerWins = playerWinText;
-           //_whatToSayWhenPlayerLoses = playerLoseText;
-            //_whatToSayWhenPlayerTies = playerTieText;
             _whatToSayWhenChoosingCards = choosingCardText;
             _npcName = npcName;
             _isEnemyHandOpen = isEnemyHandOpen;
@@ -107,19 +102,6 @@ namespace ETF.TripleTriad
         {
             currentEnemyCardSelectionList.Clear();
             ChooseCards();
-            // //this is the switch for each type of enemy, currently only have beginner choices
-            // switch (_typeOfEnemyPlayer)
-            // {
-            //     case EnemyCardHand.WhatTypeOfCardPlayerAmI.Beginner:
-            //         BeginnerChooseCards();
-            //         break;
-            //     case EnemyCardHand.WhatTypeOfCardPlayerAmI.Moderate:
-            //         ModerateChooseCards();
-            //         break;
-            //     case EnemyCardHand.WhatTypeOfCardPlayerAmI.Hard:
-            //         HardChooseCards();
-            //         break;
-            // }
         }
 
         private void ChooseCards()
@@ -136,47 +118,9 @@ namespace ETF.TripleTriad
                 AddEnemySelectedCardsToHandList();
             }
         }
-
-        // private void BeginnerChooseCards()
-        // {
-        // //chooses cards for the beginner ruleset
-        // if (_currentEnemyRareCards.Count > 0)
-        // {
-        //     DetermineIfRareCardsShouldBeAddedToHand();
-        // }
-        //
-        // BeginnerAddCardsToHandSelectionsUntilFull();
-        // AddEnemySelectedHandToTheEnemyCardHandGameObjects();
-        // AddEnemySelectedCardsToHandList();
-        // }
-        // private void ModerateChooseCards()
-        // {
-        //     //chooses cards for the beginner ruleset
-        //     if (_currentEnemyRareCards.Count > 0)
-        //     {
-        //         DetermineIfRareCardsShouldBeAddedToHand();
-        //     }
-        //     ModerateAddCardsToHandSelectionsUntilFull();
-        //     AddEnemySelectedHandToTheEnemyCardHandGameObjects();
-        //     AddEnemySelectedCardsToHandList();
-        // }
-        //
-        // private void HardChooseCards()
-        // {
-        //     //chooses cards for the beginner ruleset
-        //     if (_currentEnemyRareCards.Count > 0)
-        //     {
-        //         DetermineIfRareCardsShouldBeAddedToHand();
-        //     }
-        //     RandomAddCardsToHandSelectionsUntilFull();
-        //     AddEnemySelectedHandToTheEnemyCardHandGameObjects();
-        //     AddEnemySelectedCardsToHandList();
-        // }
-
-
+        
         private void DetermineIfRareCardsShouldBeAddedToHand()
         {
-            //this determines if the enemy will use his rare card in his hand or not.
             for (var i = 0; i < _currentEnemyRareCards.Count; i++)
             {
                 if (_currentEnemyRareCards[i].cardID == 999)
@@ -207,35 +151,6 @@ namespace ETF.TripleTriad
             }
         }
 
-        // private void BeginnerAddCardsToHandSelectionsUntilFull()
-        // {
-        //     //this will choose a random card from the list of common cards until the enemy's hand is full
-        //     while (currentEnemyCardSelectionList.Count < 5)
-        //     {
-        //         var randomNumber = Random.Range(RetrieveMinCardLevel(), RetrieveMaxCardLevel() +1);
-        //         currentEnemyCardSelectionList.Add(CardInventory.instance.ttCardListOfCommonCards[randomNumber]);
-        //     }
-        // }
-        // private void ModerateAddCardsToHandSelectionsUntilFull()
-        // {
-        //     //this will choose a random card from the list of common cards until the enemy's hand is full
-        //     while (currentEnemyCardSelectionList.Count < 5)
-        //     {
-        //         var randomNumber = Random.Range(0, CardInventory.instance.ttCardListOfUncommonCards.Count);
-        //         currentEnemyCardSelectionList.Add(CardInventory.instance.ttCardListOfUncommonCards[randomNumber]);
-        //     }
-        // }
-        //
-        // private void RandomAddCardsToHandSelectionsUntilFull()
-        // {
-        //     //this will choose a random card from the list of common cards until the enemy's hand is full
-        //     while (currentEnemyCardSelectionList.Count < 5)
-        //     {
-        //         var randomNumber = Random.Range(20, CardInventory.instance.masterCardList.Length);
-        //         currentEnemyCardSelectionList.Add(CardInventory.instance.masterCardList[randomNumber]);
-        //     }
-        // }
-
         private void AddEnemySelectedHandToTheEnemyCardHandGameObjects()
         {
             //uses the information in the DB to set the card gameobject so that is has a reference to the card list that was chosen
@@ -259,19 +174,16 @@ namespace ETF.TripleTriad
 
         public string WhatWillTheEnemySayWhenTurnSelection()
         {
-            //returns data to the ui
             return _whatToSayWhenTurnIsBeingSelected;
         }
 
         public string WhatWillTheEnemySayWhenChoosingCards()
         {
-            //returns data to the ui
             return _whatToSayWhenChoosingCards;
         }
 
         public string WhatIsTheEnemyNpcName()
         {
-            //returns data to the ui
             return _npcName;
         }
 
@@ -288,23 +200,6 @@ namespace ETF.TripleTriad
             return false;
         }
         
-        // public string WhatWillTheEnemySayWhenPlayerWins()
-        // {
-        //     //returns data to the ui
-        //     return _whatToSayWhenPlayerWins;
-        // }
-        //
-        // public string WhatWillTheEnemySayWhenPlayerLoses()
-        // {
-        //     //returns data to the ui
-        //     return _whatToSayWhenPlayerLoses;
-        // }
-        // public string WhatWillTheEnemySayWhenPlayerTies()
-        // {
-        //     //returns data to the ui
-        //     return _whatToSayWhenPlayerTies;
-        // }
-
         public EnemyCardHand.WhatTypeOfCardPlayerAmI RetrieveEnemyDifficulty()
         {
             return _typeOfEnemyPlayer;

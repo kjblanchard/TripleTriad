@@ -50,7 +50,6 @@ namespace ETF.TripleTriad
         {
 
             SendStateChange(gameStartedState);
-            //gameObject.SetActive(false);
         }
 
         void Update()
@@ -82,10 +81,6 @@ namespace ETF.TripleTriad
             return ttStateMachine.ReturnPreviousState();
         }
 
-        // public void SwitchToEnemyTurn()
-        // {
-        //     fingerAnimationChanger.ChangeTurn();
-        // }
 
         #endregion
 

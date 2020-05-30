@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -49,10 +47,7 @@ namespace ETF.TripleTriad
 
 		public void QuitGame()
 		{
-			//_ttMan.SendStateChange(_ttMan.showingRulesState,1);
 			_ttMan.SendStateChange(_ttMan.gameStartedState);
-			//TurnOffTripleTriad();
-			//Application.Quit();
 		}
 
 		public void ChangeToShowingRulesState()
@@ -60,12 +55,6 @@ namespace ETF.TripleTriad
 			_ttMan.SendStateChange(_ttMan.showingRulesState);
 		}
 
-		// public void TurnOffTripleTriad()
-		// {
-		// 	SoundManager.instance.PlayIntroLoop(SoundManager.instance.bgmToPlay);
-		// 	StartCoroutine(UIFade.instance.EndCardBattleFade(0.5f));
-		//
-		// }
 		
 		public void ChangeToTitleScreenState()
 		{

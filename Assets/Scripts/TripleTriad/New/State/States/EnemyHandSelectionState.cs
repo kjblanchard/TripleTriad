@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -14,7 +12,7 @@ namespace ETF.TripleTriad
 
         public override void Startup(int additionalArgs = 0)
         {
-            //Random.seed = System.DateTime.Now.Millisecond;
+            Random.seed = System.DateTime.Now.Millisecond;
             StartCoroutine(ttMan.ttUi.InitializeEnemyHandSelectScreenUiCo());
             ttMan.ttDb.GenerateEnemyCardHand();
         }

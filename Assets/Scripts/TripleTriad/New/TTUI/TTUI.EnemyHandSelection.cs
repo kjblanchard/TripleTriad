@@ -9,7 +9,6 @@ namespace ETF.TripleTriad
     {
 
         [Header("Stuff For EnemyHandSelection")]
-        //[SerializeField] Animator[] enemyHandAnimator;
 
         [SerializeField]
         Animator enemyHandDialogBoxAnimator;
@@ -99,7 +98,6 @@ namespace ETF.TripleTriad
 
 
                 yield return new WaitForSeconds(1f);
-                //isLoading = false;
             }
             else
             {

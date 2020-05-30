@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace ETF.TripleTriad
@@ -12,9 +11,7 @@ namespace ETF.TripleTriad
 
         private int _numberToIncrement;
         private bool _regularAutoScrollSpeed;
-        //[SerializeField] TripleTriadManager ttMan;
 
-        //reference to the gamestate that we were coming from
 
         //reference to the running coroutine
         Coroutine _continuousCoroutineReferenceDown;
@@ -60,7 +57,6 @@ namespace ETF.TripleTriad
             {
                 InitializeDbForCardSelection();
                 StartCoroutine(_ttDb.UpdateMyHandTripleTriadCardsWithRandomSelection());
-                //ttMan.ttDb.UpdateMyHandTripleTriadCardsWithMySelectionList();
             }
         }
         
@@ -305,7 +301,6 @@ namespace ETF.TripleTriad
                 SoundManager.instance.PlaySFX(3);
                 return;
             }
-            //ttMan.ttUi.TurnOnHandAnimator();
             _ttUi.UpdateMyHandImage();
             _ttUi.PlayMyHandAnimation(_ttDb.currentHandSelectionsList.Count);
             AddChoiceToCardSelectionList();

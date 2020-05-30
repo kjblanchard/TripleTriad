@@ -1,6 +1,4 @@
-﻿ using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
  namespace ETF.TripleTriad
  {
@@ -31,7 +29,6 @@ using UnityEngine;
 
          public void KeepFingerOnProperLocationInCardConfirmation()
          {
-             //finger is turned on and off when in update method by the isloading bool
              if (isLoading == false)
              {
                  if (!fingerPrefab.gameObject.activeInHierarchy)

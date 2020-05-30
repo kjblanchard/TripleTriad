@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿
 namespace ETF.TripleTriad
 {
 
@@ -41,20 +38,17 @@ namespace ETF.TripleTriad
 				ttdb.currentEnemyTripleTriadCardsInHand[ttMan.ttLogic.RetrieveHandPositionToPlaceCard()].cardAnimator.SetTrigger("inFocus");
 
 			}
-			// ttdb.currentEnemyTripleTriadCardsInHand[ttMan.ttLogic.RetrieveHandPositionToPlaceCard()].cardAnimator.SetTrigger("inFocus");
 			
 		}
 
 		public void setOutFocusOnEnemyCardSelected()
 		{
 			ttdb.currentEnemyTripleTriadCardsInHand[ttMan.ttLogic.RetrieveHandPositionToPlaceCard()].cardAnimator.SetTrigger("outFocus");
-			//myHandCardAnimators[ttdb.RetrievePlayerTurnCurrentSelection()].SetTrigger("outFocus");
 
 		}
 
 		public void InitializeBetweenTurnUiPlayerToEnemy()
 		{
-			//setOutFocusOnPlayerCardSelected();
 			isLoading = true;
 			playerSelectionFinger.SetActive(false);
 		}

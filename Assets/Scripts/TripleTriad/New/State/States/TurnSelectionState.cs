@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 namespace ETF.TripleTriad
@@ -21,8 +20,6 @@ namespace ETF.TripleTriad
 
         public override void Execute()
         {
-
-            //this is ended from an animation event at the end of the finger move
         }
 
         public override void End()

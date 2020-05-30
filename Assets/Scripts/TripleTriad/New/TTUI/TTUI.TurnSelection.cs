@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿
 namespace ETF.TripleTriad
 {
     public partial class TTUI
@@ -31,8 +28,6 @@ namespace ETF.TripleTriad
         {
             enemyHandDialogBoxAnimator.SetTrigger("default");
             _enemyDialogBoxCanvas.enabled = false;
-            //enemyHandDialogBoxAnimator.gameObject.SetActive(false);
-            //locationSelectionFinger.SetActive(false);
         }
 
 

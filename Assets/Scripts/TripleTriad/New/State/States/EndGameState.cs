@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using ETF.TripleTriad;
+﻿
 using UnityEngine;
 
 namespace ETF.TripleTriad

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -17,7 +15,6 @@ namespace ETF.TripleTriad
 		public override void Startup(int additionalArgs = 0)
 		{
 			_ttMan.ttDb.InitializeRewardConfirmDb();
-			//_ttMan.ttUi.isLoading = false;
 			_ttMan.ttUi.InitializeRewardConfirmUi();
 		}
 

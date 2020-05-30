@@ -15,8 +15,6 @@ namespace ETF.TripleTriad
 		public OpponentBox[] _opponentBoxes;
 		public Image _opponentSelectCursorImage;
 		
-		// [SerializeField] private Image[] _opponentBoxImages;
-		// [SerializeField] private Animator[] _opponentAnimators;
 		private static readonly int kRest = Animator.StringToHash("rest");
 		private static readonly int kIdle = Animator.StringToHash("idle");
 		private static readonly int kSelected = Animator.StringToHash("selected");
@@ -146,9 +144,6 @@ namespace ETF.TripleTriad
 			_opponentBoxes[ttdb.RetrieveCurrentOpponentInOpponentList()].opponentCardInfo.AddRareToList(cardId);
 			
 		}
-
-
-		
 
 		#endregion
 	}

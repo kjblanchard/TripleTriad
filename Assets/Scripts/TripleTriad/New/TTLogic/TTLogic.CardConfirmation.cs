@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace ETF.TripleTriad
+﻿namespace ETF.TripleTriad
 {
     public partial class TTLogic
     {

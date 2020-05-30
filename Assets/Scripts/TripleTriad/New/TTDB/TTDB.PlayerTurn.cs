@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿
 namespace ETF.TripleTriad
 {
 
@@ -56,28 +53,7 @@ namespace ETF.TripleTriad
 		{
 			return _isComingFromLocationCancel;
 		}
-
-		// public void ModifyPlayerTurnIsCancelling(bool isComingFromLocationScreenCancel)
-		// {
-		// 	_isComingFromLocationCancel = isComingFromLocationScreenCancel;
-		// }
-
-		// public void SearchForNextUsableCardInCurrentHandAndChangeSelection()
-		// {
-		// 	for (int i = _playerTurnCurrentSelection + 1; i < _myFullHandTripleTriadCards.Length; i++)
-		// 	{
-		// 		if (_myFullHandTripleTriadCards[i].HaveIBeenPlayed() == false)
-		// 		{
-		// 			_playerTurnCurrentSelection = i;
-		// 			break;
-		// 		}
-		// 	}
-		// }
 		
-		
-		
-
-
 		#endregion
 	}
 }

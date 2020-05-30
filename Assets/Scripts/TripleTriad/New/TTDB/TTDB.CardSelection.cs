@@ -102,8 +102,6 @@ namespace ETF.TripleTriad
             {
                 _myFullHandTripleTriadCards[i].whatCardIAm =
                     currentBattleSelectableCards[currentHandSelectionsList[i].spotInCardInv];
-                //_myFullHandTripleTriadCards[i].SetTtCardToHaveNotPlayed();
-                //_myFullHandTripleTriadCards[i].positionInCardHand = (i + 1);
             }
 
             for (int i = 0; i < _myFullHandTripleTriadCards.Length; i++)
@@ -137,7 +135,6 @@ namespace ETF.TripleTriad
             {
                 _myFullHandTripleTriadCards[i].whatCardIAm =
                     currentBattleSelectableCards[_randomCardIntList[i]];
-                //_myFullHandTripleTriadCards[i].
             }
 
             for (int i = 0; i < _myFullHandTripleTriadCards.Length; i++)
@@ -156,16 +153,6 @@ namespace ETF.TripleTriad
             ttMan.SendStateChange(ttMan.enemyHandSelectionState);
             
         }
-
-        // public void UpdateMyCurrentHandCountTo5()
-        // {
-        //     _currentCardsInHand = 5;
-        // }
-
-        // public void RemoveOneFromCurrentHand()
-        // {
-        //     _currentCardsInHand--;
-        // }
 
         public int RetrieveCurrentTripleTriadHandLength()
         {

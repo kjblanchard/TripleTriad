@@ -12,7 +12,6 @@ namespace ETF.TripleTriad
 		private readonly int _boardLocation;
 		private readonly int _cardLocation;
 		private float _moderateCardsDefenseValue = 0;
-		//private int _numberOfCardsWeCanFlip;
 		private Card _enemyCardReference;
 		private int _amountOfDefSidesCalculated = 0;
 		

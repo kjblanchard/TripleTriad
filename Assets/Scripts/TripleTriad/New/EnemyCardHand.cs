@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SocialPlatforms;
 
 namespace ETF.TripleTriad
 {
@@ -47,12 +44,7 @@ namespace ETF.TripleTriad
 
 
 
-
-        private void Awake()
-        {
-            //this is here for testing, will be moved to loading into triple triad afterwards
-
-        }
+        
 
         public void SendInfoToTtDb()
         {

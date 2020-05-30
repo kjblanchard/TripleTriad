@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -17,11 +14,6 @@ namespace ETF.TripleTriad
 		[SerializeField] private Animator _youWinAnimator;
 		[SerializeField] private Animator _drawAnimator;
 		[SerializeField] private Animator _youLoseAnimator;
-		//[SerializeField] private Text _endGameText;
-
-
-
-
 		#endregion
 
 
@@ -48,52 +40,23 @@ namespace ETF.TripleTriad
 				SoundManager.instance.CacheNextMusic(9);
 			}
 
-			//UpdateEnemyDialogBoxToEndGameWin();
-			//ttMan.ttUi.enemyHandDialogBoxAnimator.gameObject.SetActive(true);
-			//PlayEnemyHandDialogBoxAnimation();
-			//_endGameText.text = "You Win!";
+
 			_youWinAnimator.SetTrigger("play");
 
 		}
 		public void InitializeTieEndGameUi()
 		{
-			//UpdateEnemyDialogBoxToEndGameTie();
-			// ttMan.ttUi.enemyHandDialogBoxAnimator.gameObject.SetActive(true);
-			// PlayEnemyHandDialogBoxAnimation();
-			//_endGameText.text = "Tie..";
-			//_youWinAnimator.SetTrigger("tie");
+
 			_drawAnimator.SetTrigger("play");
 
 		}
 		public void InitializeLoseEndGameUi()
 		{
 			SoundManager.instance.PlaySFX(16);
-			//UpdateEnemyDialogBoxToEndGameLose();
-			// ttMan.ttUi.enemyHandDialogBoxAnimator.gameObject.SetActive(true);
-			// PlayEnemyHandDialogBoxAnimation();
-			//_endGameText.text = "Loser!";
 			_youLoseAnimator.SetTrigger("play");
 
 		}
 		
-		
-		
-		// private void UpdateEnemyDialogBoxToEndGameWin()
-		// {
-		// 	enemyDialogBoxDialogText.text = ttdb.WhatWillTheEnemySayWhenPlayerWins();
-		// }
-		//
-		// public void UpdateEnemyDialogBoxToEndGameLose()
-		// {
-		// 	enemyDialogBoxDialogText.text = ttdb.WhatWillTheEnemySayWhenPlayerLoses();
-		// }
-		//
-		// public void UpdateEnemyDialogBoxToEndGameTie()
-		// {
-		// 	enemyDialogBoxDialogText.text = ttdb.WhatWillTheEnemySayWhenPlayerTies();
-		// }
-
-
 		#endregion
 	}
 }

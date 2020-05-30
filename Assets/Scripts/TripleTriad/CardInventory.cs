@@ -7,10 +7,6 @@ public class CardInventory : MonoBehaviour
     public Card[] masterCardList;
     public List<Card> renumberedCardList = new List<Card>();
     public List<Card> ttBattleCardList = new List<Card>();
-    // public List<Card> ttCardListOfCommonCards = new List<Card>();
-    // public List<Card> ttCardListOfUncommonCards = new List<Card>();
-    // public List<Card> ttCardListOfRareCards = new List<Card>();
-    // public List<Card> ttCardListOfEliteCards = new List<Card>();
     private readonly List<int> _temporaryCardQuantityList = new List<int>();
     
 
@@ -128,21 +124,21 @@ public class CardInventory : MonoBehaviour
 
 
     public int RetrieveNumberOfCardsOnPage()
-    {//other functions use this to get the private variables
+    {
         return _numberOfCardsOnPage;
     }
 
     public int RetrieveTotalNumberOfCards()
-    {//other functions use this to get the private variables
+    {
         return _totalNumberOfCards;
     }
 
     public int RetrieveTotalNumberOfPages()
-    {//other functions use this to get the private variables
+    {
         return _totalNumberOfPages;
     }
     public int RetrieveTotalNumberOfCardsOnLastPage()
-    {//other functions use this to get the private variables
+    {
         return _totalNumberOfCardsOnLastPage;
     }
 

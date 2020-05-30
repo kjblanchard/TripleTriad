@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using ETF.TripleTriad;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace ETF.TripleTriad
 {
@@ -66,7 +63,6 @@ namespace ETF.TripleTriad
 							if (_myCurrentValue > _enemyCurrentValue)
 							{
 								//check to see if my value is higher than theirs
-								//print($"My Value is higher than theirs with card {enemyCard.cardName}, and I'm going to go to position {i} cause my value is {_myCurrentValue} and their value is {_enemyCurrentValue}");
 								var potentialMove = new EnemyPotentialMove(i, cardNumberInInventory,enemyCard);
 								ttDb.AddMoveToCardMoves(potentialMove, _howManyCardsCanIFlipHere);
 								_howManyCardsCanIFlipHere++;
@@ -75,8 +71,6 @@ namespace ETF.TripleTriad
 					}
 				}
 			}
-
-			//ChooseCardToPlayFromListOfChoices();
 		}
 
 		private void SearchForRandomCardPlacementBeginner()
@@ -172,7 +166,6 @@ namespace ETF.TripleTriad
 			}
 			else
 			{
-				//print("noCardsCanBeFlipped");
 				SearchForRandomCardPlacementBeginner();
 				_randomCardMoves = ttDb.RetrieveNumberOfPotentialMovesRandomCards();
 				_boardLocInListToPlay = Random.Range(0, _randomCardMoves);
@@ -219,7 +212,6 @@ namespace ETF.TripleTriad
 				CreateModerateRandomCardList();
 				_moveToPlay = ModerateChooseBestCard(whichCardList);
 			}
-			//print($"my moves defense is {_moveToPlay.RetrieveDefense()}");
 		}
 
 		private EnemyPotentialMove ModerateChooseBestCard(int whichCardList)
@@ -235,15 +227,12 @@ namespace ETF.TripleTriad
 					if (locationToCheckIfInPlay.cardInPlay)
 					{
 						//there is a card there, so add 10 to the defense value
-						//print($"adding defense of 10 and my card is {movesList[i].RetrieveCard()} cause there is a card in play at position {locationToCheckIfInPlay}");
 						movesList[i].AddToDefenseValue(10);
 					}
 					else
 					{//calculate the defense value to add
 						var cardDefensevalue = movesList[i].RetrieveCard()
 							.cardValues[potentialMoveBoardLocation.myValueToCheck[j]];
-						 // print(
-						 // 	$"I'm adding the defense value of {cardDefensevalue} and my card is {movesList[i].RetrieveCard()} cause the card isn't in play at position {locationToCheckIfInPlay}  ");
 
 						movesList[i].AddToDefenseValue(cardDefensevalue);
 					}
@@ -261,7 +250,6 @@ namespace ETF.TripleTriad
 
 		private void GatherPotentialMoveCountsFromDb()
 		{
-			//print("hi");
 			_fourCardMoves = ttDb.RetrieveNumberOfMovesInList(4);
 			_threeCardMoves = ttDb.RetrieveNumberOfMovesInList(3);
 			_twoCardMoves = ttDb.RetrieveNumberOfMovesInList(2);

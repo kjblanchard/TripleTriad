@@ -37,6 +37,7 @@ namespace ETF.TripleTriad
 		public void InitializeOpponentSelectionUi()
 		{
 			_opponentSelectionCanvas.enabled = true;
+			UpdateOpponentInfoOpponentSelection();
 		}
 		
 		public void KeepCursorOnProperSelectionOpponentSelect()

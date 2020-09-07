@@ -71,4 +71,6 @@ namespace ETF.TripleTriad
 
 		#endregion
 	}
+	
+	
 }

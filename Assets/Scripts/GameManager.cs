@@ -25,18 +25,18 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
-        // if (frameRateOf60)
-        // {testing mobile deployment, copypasta
-        //     SetVsync1();
-        // }
-        // else if (frameRateOf120)
-        // {
-        //     SetVsync0_120FPS();
-        // }
-        // else
-        // {
-        //     SetVsync1();
-        // }
+        if (frameRateOf60)
+        {//testing mobile deployment, copypasta
+            SetVsync1();
+        }
+        else if (frameRateOf120)
+        {
+            SetVsync0_120FPS();
+        }
+        else
+        {
+            SetVsync1();
+        }
         instance = this;
 
         int gameManagerCount = FindObjectsOfType<GameManager>().Length;
@@ -86,24 +86,24 @@ public class GameManager : MonoBehaviour
 
     }
 
-    // public void SetVsync0_120FPS()
-    // {testing mobile deployments, copypasta
-    //     //turns of vsync and tries to get 120fps, best for stable framerate
-    //     QualitySettings.vSyncCount = 0;
-    //     Application.targetFrameRate = 120;
-    // }
-    //
-    // public void SetVsync0_Default()
-    // {
-    //     QualitySettings.vSyncCount = 0;
-    //     Application.targetFrameRate = -1;
-    // }
-    //
-    // public void SetVsync1()
-    // {
-    //     QualitySettings.vSyncCount = 1;
-    //     Application.targetFrameRate = -1;
-    // }
+    public void SetVsync0_120FPS()
+    {//testing mobile deployments, copypasta
+        //turns of vsync and tries to get 120fps, best for stable framerate
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 120;
+    }
+    
+    public void SetVsync0_Default()
+    {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = -1;
+    }
+    
+    public void SetVsync1()
+    {
+        QualitySettings.vSyncCount = 1;
+        Application.targetFrameRate = -1;
+    }
 
 
 }

@@ -8,3 +8,7 @@ Used Unity as the game engine.  Used GIMP and asperite for creating the sprites 
 If you just want to play the game, here is a link:
 
 https://simmer.io/@enf3rno/blanchards-triple-triad-v2
+
+
+Heres a youtube video of the game on a older build than the Simmer:
+https://youtu.be/2780fu64msA

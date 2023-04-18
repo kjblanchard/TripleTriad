@@ -1,5 +1,5 @@
 # TripleTriad - Recreating Triple Triad In C# and Unity
-![Picture didn't load idiot](https://github.com/kjblanchard/TripleTriad/blob/f/readme/img/gameplay.gif?raw=true)
+![Picture didn't load idiot](https://github.com/kjblanchard/TripleTriad/blob/master/img/intro.png?raw=true)
 
 - Recreated the FF8 minigame for a project I'm working on.
 
@@ -11,8 +11,8 @@
 https://simmer.io/@enf3rno/blanchards-triple-triad-v2
 
 
-![Picture didn't load idiot](https://github.com/kjblanchard/TripleTriad/blob/f/readme/img/intro.png?raw=true)
-
+## Low quality gif ftw
+![Picture didn't load idiot](https://github.com/kjblanchard/TripleTriad/blob/master/img/gameplay.gif?raw=true)
 
 ## Heres a youtube video of the game on a older build than the Simmer:
 https://youtu.be/2780fu64msA

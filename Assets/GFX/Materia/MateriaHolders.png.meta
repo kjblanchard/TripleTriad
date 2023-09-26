@@ -390,7 +390,7 @@ TextureImporter:
       213: -7115332478039201124
     second: Empty_Link_Right
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -410,6 +410,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -419,8 +421,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -441,11 +443,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -456,7 +463,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -467,7 +475,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -478,7 +487,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -489,6 +499,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -3106,6 +3129,131 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      MateriaHolders_85: 2740401718597442497
+      MateriaHolders_51: -5576570471921829729
+      Magic_Link_Left: -8119613250971753966
+      MateriaHolders_81: 8686796338784703741
+      MateriaHolders_75: 5196360291822450938
+      MateriaHolders_74: 5259131551439002398
+      MateriaHolders_77: -2935902433304276692
+      MateriaHolders_37: -5532410917692546856
+      Standalone_Single: -8482321163136583817
+      MateriaHolders_83: -3402110575859732463
+      Personal_Link_Right: -6572972875080723399
+      MateriaHolders_38: -4490364945622183955
+      MateriaHolders_119: -5995977134226105931
+      MateriaHolders_73: -8696697556251328747
+      Skill_Image: 4327003322401655189
+      Skill_Single: 8367301391114982030
+      MateriaHolders_58: -4914350467959843488
+      MateriaHolders_60: 1116759198530667324
+      MateriaHolders_112: 837686923141391752
+      MateriaHolders_71: 8888522837999294459
+      MateriaHolders_109: -1760833248942348250
+      MateriaHolders_120: 6851890665389244320
+      MateriaHolders_44: -9042013999207655626
+      Empty_Link_Right: -7115332478039201124
+      Support_Link_Right: -2124574801619163426
+      MateriaHolders_1: -100675314914369159
+      MateriaHolders_8: -2845071983998359710
+      MateriaHolders_50: 8021097435037929042
+      Magic_Single: 7455053409508992865
+      MateriaHolders_27: 2856592031921707148
+      MateriaHolders_84: -7307015875486672034
+      MateriaHolders_42: -1672298829217401868
+      MateriaHolders_86: 1972154149555505070
+      MateriaHolders_46: 1856672893257631699
+      Support_Image: 7036208246843929249
+      MateriaHolders_105: -6731292462543784222
+      MateriaHolders_64: 3434247658650692961
+      MateriaHolders_54: -4823848265848244040
+      MateriaHolders_36: 412422221952132656
+      MateriaHolders_104: 268144467970955670
+      MateriaHolders_90: -5916709145385159840
+      MateriaHolders_102: -7574691879171803703
+      MateriaHolders_23: 647591926394032682
+      MateriaHolders_113: 2140459455682681402
+      MateriaHolders_33: 43058863380381381
+      MateriaHolders_121: 8201917132286105601
+      MateriaHolders_103: -5718717265662721440
+      MateriaHolders_69: 985372961507499186
+      Personal_Single: -4526512119892973906
+      MateriaHolders_19: -5469391909993347673
+      MateriaHolders_48: 8911249576378393689
+      Empty_Link_Left: 6413575487499251313
+      MateriaHolders_6: 9096388382495117560
+      MateriaHolders_7: -577816409620451766
+      MateriaHolders_56: -2009589752503599954
+      Magic_Image: -3398681009927841661
+      MateriaHolders_111: 7228295127878897008
+      MateriaHolders_49: 4007366849149816147
+      MateriaHolders_96: 4982400280335060687
+      MateriaHolders_98: 3434689529150342884
+      MateriaHolders_110: -750657388843523563
+      MateriaHolders_122: -7379304520025633815
+      MateriaHolders_61: -8858414527706459495
+      MateriaHolders_24: -2963035064849616180
+      MateriaHolders_4: 407357471408936778
+      MateriaHolders_32: 6074219788590105159
+      Support_Link_Left: 3984236080752715504
+      MateriaHolders_108: -4517155808417657226
+      MateriaHolders_92: -3215188621576499343
+      MateriaHolders_28: 5363067173939376961
+      Personal_Image: 7086230649586348361
+      MateriaHolders_17: -7999500176794531568
+      MateriaHolders_87: 3912683539618160555
+      MateriaHolders_70: 1952651335506469036
+      MateriaHolders_31: -2484967596961136071
+      MateriaHolders_0: 2276511886227471154
+      MateriaHolders_63: -8313331886068293747
+      MateriaHolders_39: -8560749833250307527
+      Skill_Link_Right: 1707298911520409450
+      Magic_Link_Right: -2131962471510605635
+      MateriaHolders_76: -106175855552913620
+      Standalone_Link_Right: -5966578117660466233
+      MateriaHolders_26: 8853566397322806709
+      MateriaHolders_82: -2193425492579174513
+      MateriaHolders_80: -5681403837457137212
+      MateriaHolders_106: -8364180216207269737
+      MateriaHolders_57: 2669240009493518335
+      MateriaHolders_15: 869390197434070320
+      MateriaHolders_40: 812960049603169898
+      Personal_Link-Left: -8268768150265311212
+      MateriaHolders_25: -1731164602668424854
+      MateriaHolders_94: 1791500916215900654
+      MateriaHolders_97: -8102694170145997937
+      MateriaHolders_107: 8424187253380068586
+      MateriaHolders_3: 3618069585812781135
+      MateriaHolders_95: 1925339054541008679
+      MateriaHolders_68: 1734774872783068359
+      Support_Single: -765572744813153927
+      MateriaHolders_88: 886694834653956914
+      MateriaHolders_89: -2371522732782629809
+      MateriaHolders_93: -7250996088616494362
+      MateriaHolders_41: -688068892691472802
+      MateriaHolders_100: 2240839446515483342
+      MateriaHolders_91: -3113190724650682081
+      MateriaHolders_21: 7669209840633397761
+      MateriaHolders_52: 2526894445708909591
+      Standalone_Link_Left: -9186329898458278213
+      MateriaHolders_72: 8981146566331025138
+      MateriaHolders_99: 3407341015457939692
+      MateriaHolders_78: 7203950462804950335
+      Standalone_Image: 2153041624971634241
+      MateriaHolders_45: 2953391928764263120
+      MateriaHolders_53: 8599128597282602044
+      MateriaHolders_5: 3774438511183630638
+      MateriaHolders_2: -4377401495850367760
+      MateriaHolders_34: 5069483823953319388
+      Skill_Link_Left: -5002084909587303533
+      MateriaHolders_35: -6566322242783078841
+      MateriaHolders_62: -8267841251947970098
+      MateriaHolders_59: -6171976653290752733
+      MateriaHolders_30: 8291009986297340889
+      MateriaHolders_101: 2335095796182151031
+      MateriaHolders_47: 7362410115517884708
+      Empty_Single: -7847000029296790766
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

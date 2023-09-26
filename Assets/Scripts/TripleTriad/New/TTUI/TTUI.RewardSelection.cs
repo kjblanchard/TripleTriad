@@ -6,141 +6,145 @@ using UnityEngine.UI;
 namespace ETF.TripleTriad
 {
 
-	public partial class TTUI
-	{
+    public partial class TTUI
+    {
 
-		#region Configuration
+        #region Configuration
 
-		[SerializeField] private TripleTriadUiFade _tripleTriadUiFade;
-		[SerializeField] private Canvas _cardRewardCanvas;
-		[SerializeField] private Text _cardRewardText;
+        [SerializeField] private TripleTriadUiFade _tripleTriadUiFade;
+        [SerializeField] private Canvas _cardRewardCanvas;
+        [SerializeField] private Text _cardRewardText;
 
-		#endregion
-		
+        #endregion
 
-		#region Functions
 
-		public void ReturnAllBoardCardsToBase()
-		{
-			var boardCards = ttdb.RetrieveAllCardsOnBoard();
-			for (int i = 0; i < boardCards.Length; i++)
-			{
-				boardCards[i].cardCanvas.enabled = false;
-				boardCards[i].cardAnimator.SetTrigger("moveToBase");
-			}
-		}
+        #region Functions
 
-		public void RewardSelectionFadeIn()
-		{
-			_tripleTriadUiFade.animator.SetTrigger("rewardFadeIn");
-		}
-		
-		public void RewardSelectionFadeOut()
-		{
-			isLoading = true;
-			_tripleTriadUiFade.animator.SetTrigger("rewardFadeOut");
-		}
-		
-		public IEnumerator MoveAllPlayerHandCardsToRewardSelection()
-		{
-			var handCards = ttdb.RetrieveAllPlayerHandCardsFull();
-			for (int i = 0; i < handCards.Length ; i++)
-			{
-				handCards[i].cardAnimator.SetTrigger("moveToReward");
-				SoundManager.instance.PlaySFX(6);
-				yield return new WaitForSeconds(0.1f);
-			}
-		}
-		public IEnumerator MoveAllEnemyHandCardsToRewardSelection()
-		{
-			
-			for (int i = 0; i < ttMan.ttDb.fullEnemyTripleTriadCards.Length ; i++)
-			{
-				ttMan.ttDb.fullEnemyTripleTriadCards[i].cardAnimator.SetTrigger("moveToReward");
-				SoundManager.instance.PlaySFX(6);
-				yield return new WaitForSeconds(0.1f);
-			}
-		}
+        public void ReturnAllBoardCardsToBase()
+        {
+            var boardCards = ttdb.RetrieveAllCardsOnBoard();
+            for (int i = 0; i < boardCards.Length; i++)
+            {
+                boardCards[i].cardCanvas.enabled = false;
+                boardCards[i].cardAnimator.SetTrigger("moveToBase");
+            }
+        }
 
-		public void MoveAllPlayerHandCardsToPreReward()
-		{
-			var handCards = ttdb.RetrieveAllPlayerHandCardsFull();
-			for (int i = 0; i < handCards.Length; i++)
-			{
-				handCards[i].cardAnimator.SetTrigger("preRewardScreen");
-			}
-		}
-		public void MoveAllEnemyHandCardsToPreReward()
-		{
+        public void RewardSelectionFadeIn()
+        {
+            _tripleTriadUiFade.animator.SetTrigger("rewardFadeIn");
+        }
 
-			for (int i = 0; i < ttdb.fullEnemyTripleTriadCards.Length; i++)
-			{
-				ttdb.fullEnemyTripleTriadCards[i].cardAnimator.SetTrigger("preRewardScreen");
-				ttdb.fullEnemyTripleTriadCards[i].FlipCard();
-			}
-		}
-		
-		
-		public void InitializeRewardScreenUiElements()
-		{
-			_endGameCanvas.enabled = false;
-			_scoreDisplayCanvas.enabled = false;
-			UpdateTextInInfoPanelRewardSelection();
-		}
+        public void RewardSelectionFadeOut()
+        {
+            isLoading = true;
+            _tripleTriadUiFade.animator.SetTrigger("rewardFadeOut");
+        }
 
-		public void TurnOnCardRewardCanvas()
-		{
-			_cardRewardCanvas.enabled = true;
+        public IEnumerator MoveAllPlayerHandCardsToRewardSelection()
+        {
+            var handCards = ttdb.RetrieveAllPlayerHandCardsFull();
+            for (int i = 0; i < handCards.Length; i++)
+            {
+                handCards[i].cardAnimator.SetTrigger("moveToReward");
+                SoundManager.instance.PlaySFX(6);
+                yield return new WaitForSeconds(0.1f);
+            }
+        }
+        public IEnumerator MoveAllEnemyHandCardsToRewardSelection()
+        {
 
-		}
-		
-		public void keepRewardSelectionFingerOnProperLocation()
-		{
-			if (isLoading == false)
-			{
-				if (!locationSelectionFinger.gameObject.activeInHierarchy)
-				{
-                    
-					locationSelectionFinger.gameObject.SetActive(true);
-				}
+            for (int i = 0; i < ttMan.ttDb.fullEnemyTripleTriadCards.Length; i++)
+            {
+                ttMan.ttDb.fullEnemyTripleTriadCards[i].cardAnimator.SetTrigger("moveToReward");
+                SoundManager.instance.PlaySFX(6);
+                yield return new WaitForSeconds(0.1f);
+            }
+        }
 
-				locationSelectionFinger.transform.position =
-					ttdb.RetrieveCursorPositionInRewardScreen().position;
-			}
-			else
-			{
-				locationSelectionFinger.gameObject.SetActive(false);
-			}
+        public void MoveAllPlayerHandCardsToPreReward()
+        {
+            var handCards = ttdb.RetrieveAllPlayerHandCardsFull();
+            for (int i = 0; i < handCards.Length; i++)
+            {
+                handCards[i].cardAnimator.SetTrigger("preRewardScreen");
+            }
+        }
+        public void MoveAllEnemyHandCardsToPreReward()
+        {
 
-		}
-		
-		public void FlipCurrentCardSelected()
-		{
-			var currentCard = ttdb.RetrieveTripleTriadCardInEnemyHandSelected();
+            for (int i = 0; i < ttdb.fullEnemyTripleTriadCards.Length; i++)
+            {
+                ttdb.fullEnemyTripleTriadCards[i].cardAnimator.SetTrigger("preRewardScreen");
+                ttdb.fullEnemyTripleTriadCards[i].FlipCard();
+            }
+        }
 
-			if (!currentCard.cardOwnedByPlayer)
-			{
-			
-				ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardOwnedByPlayer = true;
-				ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardAnimator.SetTrigger("cardFlip");
 
-			}
-			else
-			{
-				
-				ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardOwnedByPlayer = false;
-				ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardAnimator.SetTrigger("cardFlip");
+        public void InitializeRewardScreenUiElements()
+        {
+            _endGameCanvas.enabled = false;
+            _scoreDisplayCanvas.enabled = false;
+            UpdateTextInInfoPanelRewardSelection();
+        }
 
-			}
-		}
+        public void TurnOnCardRewardCanvas()
+        {
+            _cardRewardCanvas.enabled = true;
 
-		public void UpdateTextInInfoPanelRewardSelection()
-		{
-			_cardRewardText.text = ttdb.fullEnemyTripleTriadCards[ttdb.RetrieveNumberOfCurrentSelectionInRewardSelection()].whatCardIAm.cardName;
-		}
-		
-		
+        }
 
-		#endregion
-	}
+        public void keepRewardSelectionFingerOnProperLocation()
+        {
+            if (isLoading == false)
+            {
+                if (!locationSelectionFinger.gameObject.activeInHierarchy)
+                {
+
+                    locationSelectionFinger.gameObject.SetActive(true);
+                }
+
+                locationSelectionFinger.transform.position =
+                    ttdb.RetrieveCursorPositionInRewardScreen().position;
+            }
+            else
+            {
+                locationSelectionFinger.gameObject.SetActive(false);
+            }
+
+        }
+
+        public void FlipCurrentCardSelected()
+        {
+            var currentCard = ttdb.RetrieveTripleTriadCardInEnemyHandSelected();
+
+            if (!currentCard.cardOwnedByPlayer)
+            {
+
+                ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardOwnedByPlayer = true;
+                ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardAnimator.SetTrigger("cardFlip");
+
+            }
+            else
+            {
+
+                ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardOwnedByPlayer = false;
+                ttdb.RetrieveTripleTriadCardInEnemyHandSelected().cardAnimator.SetTrigger("cardFlip");
+
+            }
+        }
+
+        public void UpdateTextInInfoPanelRewardSelection()
+        {
+            var owned = ttdb.fullEnemyTripleTriadCards[ttdb.RetrieveNumberOfCurrentSelectionInRewardSelection()].whatCardIAm.amountOwned;
+            var everOwned = ttdb.fullEnemyTripleTriadCards[ttdb.RetrieveNumberOfCurrentSelectionInRewardSelection()].whatCardIAm.hasOwnedBefore;
+            _cardRewardText.text = ttdb.fullEnemyTripleTriadCards[ttdb.RetrieveNumberOfCurrentSelectionInRewardSelection()].whatCardIAm.cardName;
+			        //  White if we do own, yellow if we don't but we have before, blue if we have never owned it.
+            _cardRewardText.color = owned > 0 ? Color.white : everOwned ? Color.yellow : Color.blue;
+        }
+
+
+
+        #endregion
+    }
 }

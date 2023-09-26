@@ -19,10 +19,10 @@ namespace ETF.TripleTriad
 			_ttUi._tripleTriadBoardImage.enabled = false;
 			Initialize();
 			_cheatCode = new[] { "k", "b", "c", "a", "r", "d", "s" };
-			_index = 0; 
+			_index = 0;
 		}
-		
-		
+
+
 		public override void Execute()
 		{
 			ListenForUserInput();
@@ -107,7 +107,7 @@ namespace ETF.TripleTriad
 				CardInventory.instance.CheatCodeEntered();
 			}
 		}
-		
+
 		private void Initialize()
 		{
 			if (Application.platform == RuntimePlatform.WebGLPlayer)
@@ -122,7 +122,7 @@ namespace ETF.TripleTriad
 			_ttDb.InitializeOpponentSelectionDb();
 			_ttUi.InitializeOpponentSelectionUi();
 		}
-		
+
 		private void TurnOnProperAnimator()
 		{
 			_ttUi.TurnOnProperAnimatorOpponentSelection();

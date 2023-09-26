@@ -246,7 +246,7 @@ TextureImporter:
       213: 21300160
     second: Buttons_80
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -266,6 +266,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -275,8 +277,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -297,11 +299,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -312,7 +319,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -323,7 +331,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -334,7 +343,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -345,7 +355,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -356,6 +367,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2070,6 +2094,88 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Buttons_46: 21300092
+      Buttons_76: 21300152
+      Buttons_31: 21300062
+      Buttons_80: 21300160
+      Buttons_50: 21300100
+      Buttons_25: 21300050
+      Buttons_47: 21300094
+      Buttons_30: 21300060
+      Buttons_16: 21300032
+      Buttons_17: 21300034
+      Buttons_4: 21300008
+      Buttons_7: 21300014
+      Buttons_37: 21300074
+      Buttons_21: 21300042
+      Buttons_42: 21300084
+      Buttons_67: 21300134
+      Buttons_22: 21300044
+      Buttons_20: 21300040
+      Buttons_15: 21300030
+      Buttons_49: 21300098
+      Buttons_53: 21300106
+      Buttons_58: 21300116
+      Buttons_78: 21300156
+      Buttons_65: 21300130
+      Buttons_69: 21300138
+      Buttons_19: 21300038
+      Buttons_66: 21300132
+      Buttons_44: 21300088
+      Buttons_57: 21300114
+      Buttons_24: 21300048
+      Buttons_72: 21300144
+      Buttons_52: 21300104
+      Buttons_35: 21300070
+      Buttons_77: 21300154
+      Buttons_43: 21300086
+      Buttons_55: 21300110
+      Buttons_59: 21300118
+      Buttons_14: 21300028
+      Buttons_60: 21300120
+      Buttons_63: 21300126
+      Buttons_73: 21300146
+      Buttons_27: 21300054
+      Buttons_1: 21300002
+      Buttons_26: 21300052
+      Buttons_33: 21300066
+      Buttons_8: 21300016
+      Buttons_9: 21300018
+      Buttons_28: 21300056
+      Buttons_41: 21300082
+      Buttons_68: 21300136
+      Buttons_11: 21300022
+      Buttons_54: 21300108
+      Buttons_70: 21300140
+      Buttons_74: 21300148
+      Buttons_18: 21300036
+      Buttons_71: 21300142
+      Buttons_75: 21300150
+      Buttons_3: 21300006
+      Buttons_10: 21300020
+      Buttons_2: 21300004
+      Buttons_38: 21300076
+      Buttons_39: 21300078
+      Buttons_64: 21300128
+      Buttons_61: 21300122
+      Buttons_6: 21300012
+      Buttons_36: 21300072
+      Buttons_0: 21300000
+      Buttons_32: 21300064
+      Buttons_48: 21300096
+      Buttons_12: 21300024
+      Buttons_5: 21300010
+      Buttons_34: 21300068
+      Buttons_40: 21300080
+      Buttons_56: 21300112
+      Buttons_13: 21300026
+      Buttons_62: 21300124
+      Buttons_29: 21300058
+      Buttons_51: 21300102
+      Buttons_23: 21300046
+      Buttons_45: 21300090
+      Buttons_79: 21300158
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

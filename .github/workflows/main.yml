@@ -13,12 +13,13 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         with:
           name: s3Artifact
           path: test/
   Push-S3:
         uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
+        needs: Build-Linux
         secrets: inherit
         with:
           bucket_region: "us-east-1"

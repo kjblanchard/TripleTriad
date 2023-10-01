@@ -24,4 +24,4 @@ jobs:
           iam_secret: ${{secrets.IAM_SECRET}}
           bucket_region: "us-east-1"
           folder_path: "test"
-        secrets: inherit
+          secrets: inherit

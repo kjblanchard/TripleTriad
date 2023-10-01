@@ -22,8 +22,8 @@ jobs:
         needs: Build-Linux
 
         secrets:
-          IAM_USER: ${{ vars.IAM_USER }}
           IAM_SECRET: ${{ secrets.IAM_SECRET }}
         with:
+          IAM_USER: ${{ vars.IAM_USER }}
           bucket_region: "us-east-1"
           bucket_name: "triple-triad-external-site"

@@ -20,7 +20,10 @@ jobs:
   Push-S3:
         uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
         needs: Build-Linux
-        secrets: inherit
+
+        secrets:
+          IAM_USER: ${{ vars.IAM_USER }}
+          IAM_SECRET: ${{ secrets.IAM_SECRET }}
         with:
           bucket_region: "us-east-1"
           bucket_name: "triple-triad-external-site"

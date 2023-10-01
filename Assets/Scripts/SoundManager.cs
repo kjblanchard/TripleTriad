@@ -40,7 +40,7 @@ public class SoundManager : MonoBehaviour
     {
         StopBGM();
         BGM[musicToPlay].Play();
-    } 
+    }
 
     public void PlaySFX(int soundToPlay)
     {
@@ -55,10 +55,10 @@ public class SoundManager : MonoBehaviour
         {
             BGM[i].Stop();
         }
-        // for ( int i = 0; i < allIntroloopAudio.Length; i++)
-        // {
-        //     IntroloopPlayer.Instance.Stop(i);
-        // }
+        for ( int i = 0; i < allIntroloopAudio.Length; i++)
+        {
+            IntroloopPlayer.Instance.Stop(i);
+        }
     }
 
     public void PlayIntroLoop(int musicToPlay)

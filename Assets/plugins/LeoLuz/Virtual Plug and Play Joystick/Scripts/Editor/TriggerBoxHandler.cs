@@ -41,8 +41,8 @@ public class TriggerHandler  {
         var Min = new Vector3();
         if (!Application.isPlaying)
         {
-            Max = Handles.FreeMoveHandle(RelativeToPosition + originalMax, Quaternion.identity, size, snap, Handles.RectangleHandleCap);
-            Min = Handles.FreeMoveHandle(RelativeToPosition + originalMin, Quaternion.identity, size, snap, Handles.RectangleHandleCap);
+            var fmh_44_76_638317756814747580 = Quaternion.identity; Max = Handles.FreeMoveHandle(RelativeToPosition + originalMax, size, snap, Handles.RectangleHandleCap);
+            var fmh_45_76_638317756814778560 = Quaternion.identity; Min = Handles.FreeMoveHandle(RelativeToPosition + originalMin, size, snap, Handles.RectangleHandleCap);
         }
         else
         {
@@ -53,13 +53,13 @@ public class TriggerHandler  {
         Vector3 MaxMin = new Vector3(Max.x, Min.y, Max.z);
 
         if (!Application.isPlaying)
-            MaxMin = Handles.FreeMoveHandle(MaxMin, Quaternion.identity, size, snap, Handles.RectangleHandleCap);
+            { var fmh_56_53_638317756814779930 = Quaternion.identity; MaxMin = Handles.FreeMoveHandle(MaxMin, size, snap, Handles.RectangleHandleCap); }
 
         Max.x = MaxMin.x;
         Min.y = MaxMin.y;
         Vector3 MinMax = new Vector3(Min.x, Max.y, Max.z); if (!Application.isPlaying)
             if (!Application.isPlaying)
-                MinMax = Handles.FreeMoveHandle(MinMax, Quaternion.identity, size, snap, Handles.RectangleHandleCap);
+                { var fmh_62_57_638317756814781020 = Quaternion.identity; MinMax = Handles.FreeMoveHandle(MinMax, size, snap, Handles.RectangleHandleCap); }
         Min.x = MinMax.x;
         Max.y = MinMax.y;
 
@@ -97,7 +97,7 @@ public class TriggerHandler  {
 
 
         EditorGUI.BeginChangeCheck();
-        bounds.center = Handles.FreeMoveHandle(RelativeToPosition + bounds.center, Quaternion.identity, size, snap, Handles.CircleHandleCap) - RelativeToPosition;
+        var fmh_100_84_638317756814782540 = Quaternion.identity; bounds.center = Handles.FreeMoveHandle(RelativeToPosition + bounds.center, size, snap, Handles.CircleHandleCap) - RelativeToPosition;
         Handles.Label(RelativeToPosition + (new Vector3((newMax.x + newMin.x) * 0.5f * (flipX ? -1f : 1f), newMax.y)), content, label);
 
 
@@ -109,7 +109,7 @@ public class TriggerHandler  {
         float size = HandleUtility.GetHandleSize(RelativeToPosition) * 0.05f;
         Vector3 snap = Vector3.one * 0.5f;
 
-        var newPoint = Handles.FreeMoveHandle(RelativeToPosition + point, Quaternion.identity, size, snap, Handles.RectangleHandleCap);
+        var fmh_112_75_638317756814784380 = Quaternion.identity; var newPoint = Handles.FreeMoveHandle(RelativeToPosition + point, size, snap, Handles.RectangleHandleCap);
         point = newPoint-RelativeToPosition;
 
       //  var newRadius = Handles.FreeMoveHandle(RelativeToPosition + point+(Vector3.down*radius), Quaternion.identity, size, snap, Handles.RectangleHandleCap);

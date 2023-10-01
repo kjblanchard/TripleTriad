@@ -10,6 +10,7 @@ on:
 jobs:
   Docker-Login:
         uses: supergoongaming/sharedWorkflows/.github/workflows/docker_login.yml@master
+        secrets: inherit
   Build-Linux:
     runs-on: ubuntu-latest
     needs: Docker-Login

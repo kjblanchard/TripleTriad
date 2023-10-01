@@ -1,0 +1,48 @@
+name: Push files to S3
+run-name: "Push files to S3: ${{ github.actor }} 🚀"
+on:
+  push:
+    branches:
+    - master
+    - 'f/*'
+  pull_request:
+    branches: [master]
+jobs:
+  Build-Linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v3
+
+      - name: Call Shared Workflow
+        uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
+        with:
+          iam_user: ${{vars.IAM_USER}}
+          iam_secret: ${{secrets.IAM_SECRET}}
+          bucket_region: "us-east-1"
+          folder_path: "test"
+          secrets: inherit
+
+
+
+
+
+
+# jobs:
+#   Build-Linux:
+#     runs-on: ubuntu-latest
+#     # uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
+#     with:
+#       image_name: enf3rno/sg_nginx
+#       build_number: ${{ github.run_number }}
+#       dockerfile_location: ./Dockerfile
+#     # secrets: inherit
+#     steps -
+#     - name: Check out repository code
+#         uses: actions/checkout@v3
+
+    # steps:
+    #   - name: Check out repository code
+    #     uses: actions/checkout@v3
+    #   - name: Trigger Docker Workflow
+    #   - run: echo "🍏 This job's status is ${{ job.status }}."

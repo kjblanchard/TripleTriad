@@ -22,4 +22,5 @@ jobs:
         secrets: inherit
         with:
           bucket_region: "us-east-1"
+          bucket_name: "triple-triad-external-site"
           folder_path: "test"

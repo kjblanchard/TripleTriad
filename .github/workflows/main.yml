@@ -19,9 +19,10 @@ jobs:
           path: test/
   Push-S3:
         uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
+        secrets:
+          iamSecret: ${{ secrets.IAM_SECRET }}
         with:
           iam_user: ${{ vars.IAM_USER }}
-          iam_secret: ${{ secrets.IAM_SECRET }}
+          iam_secret: ${{ secrets.iamSecret }}
           bucket_region: "us-east-1"
           folder_path: "test"
-        secrets: inherit

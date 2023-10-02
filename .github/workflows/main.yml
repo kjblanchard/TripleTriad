@@ -16,15 +16,25 @@ jobs:
         UNITY_SERIAL: ${{secrets.UNITY_SERIAL}}
         UNITY_PASSWORD: ${{secrets.UNITY_PASSWORD}}
         UNITY_USERNAME: ${{vars.UNITY_USERNAME}}
+        INDEX_TEXT: "This was built using Github actions! <br>Kevin Blanchard and team<br>This is a remake of Triple Triad from FF8, and was made in 2018!"
       credentials:
         username: ${{ vars.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
       - name: Build Unity WebGl
-        run: unity-editor -quit -batchmode -projectPath $(pwd) -executeMethod EditorScripts.PerformBuild -serial $UNITY_SERIAL -username $UNITY_USERNAME -password $UNITY_PASSWORD -logFile Logs/buildLog
+        run: unity-editor -quit -batchmode -projectPath $(pwd) -executeMethod EditorScripts.PerformBuild -serial $UNITY_SERIAL -username $UNITY_USERNAME -password $UNITY_PASSWORD -logFile /tmp/buildLog.txt
+      - name: Show Build Log
+        run: cat /tmp/buildLog.txt
+      - name: Show index
+        run: cat webgl/index.html
+      - name: Print Index text
+        run: echo $INDEX_TEXT
+      - name: Add to Index.hml
+        run: sed -i "/<body>/a $INDEX_TEXT" webgl/index.html
+      - name: Show index after
+        run: cat webgl/index.html
       - uses: actions/upload-artifact@v3
         with:
           name: s3Artifact
@@ -32,7 +42,6 @@ jobs:
   Push-S3:
         uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
         needs: Build-Linux
-
         secrets:
           IAM_SECRET: ${{ secrets.IAM_SECRET }}
         with:

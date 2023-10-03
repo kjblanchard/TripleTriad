@@ -40,7 +40,7 @@ jobs:
           path: webgl/
   Push-Files-To-S3:
         uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
-        needs: Build-Linux
+        needs: Build-Unity-App
         secrets:
           IAM_SECRET: ${{ secrets.IAM_SECRET }}
         with:

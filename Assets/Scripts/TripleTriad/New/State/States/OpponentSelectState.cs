@@ -80,7 +80,8 @@ namespace ETF.TripleTriad
 			{
 				if (_ttDb.RetrieveOpponentSelectionCurrentValue() == 7)
 				{
-					Application.Quit();
+					// Don't quit on triple triad only build..
+					// Application.Quit();
 					return;
 				}
 				_ttDb.SetCurrentOpponentYouArePlaying();

@@ -4,11 +4,10 @@ on:
   push:
     branches:
     - master
-    - 'f/*'
   pull_request:
     branches: [master]
 jobs:
-  Build-Linux:
+  Build-Unity-App:
     runs-on: ubuntu-latest
     container:
       image: unityci/editor:ubuntu-2022.3.10f1-webgl-2.0.0
@@ -16,7 +15,9 @@ jobs:
         UNITY_SERIAL: ${{secrets.UNITY_SERIAL}}
         UNITY_PASSWORD: ${{secrets.UNITY_PASSWORD}}
         UNITY_USERNAME: ${{vars.UNITY_USERNAME}}
-        INDEX_TEXT: "This was built using Github actions! <br>Kevin Blanchard and team<br>This is a remake of Triple Triad from FF8, and was made in 2018!"
+        INDEX_TEXT: "This was built using Github actions! Copyright Kevin Blanchard and team<br>This is a remake of Triple Triad from FF8, and was made (mostly) in 2018!"
+        CONTROLS_TEXT: "WASD for moving cursor, Space to confirm, and C to cancel."
+        RULES_TEXT: "Just like the ff8 minigame Triple Triad, you flip cards by having a higher card value on the side the opposing card is on.  Player who has most cards flipped to their color when the board is full wins."
       credentials:
         username: ${{ vars.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
@@ -27,19 +28,17 @@ jobs:
         run: unity-editor -quit -batchmode -projectPath $(pwd) -executeMethod EditorScripts.PerformBuild -serial $UNITY_SERIAL -username $UNITY_USERNAME -password $UNITY_PASSWORD -logFile /tmp/buildLog.txt
       - name: Show Build Log
         run: cat /tmp/buildLog.txt
-      - name: Show index
-        run: cat webgl/index.html
-      - name: Print Index text
-        run: echo $INDEX_TEXT
-      - name: Add to Index.hml
-        run: sed -i "/<body>/a $INDEX_TEXT" webgl/index.html
-      - name: Show index after
-        run: cat webgl/index.html
+      - name: Handle Index updates
+        run:  |
+          echo "First we print index, then we update index with env variables, then we print it out after"
+          cat webgl/index.html
+          sed -i "/<body>/a $INDEX_TEXT<br>$Controls:<br>$CONTROLS_TEXT<br>Rules:<br>$RULES_TEXT" webgl/index.html
+          cat webgl/index.html
       - uses: actions/upload-artifact@v3
         with:
           name: s3Artifact
           path: webgl/
-  Push-S3:
+  Push-Files-To-S3:
         uses: supergoongaming/sharedWorkflows/.github/workflows/push_to_s3.yml@master
         needs: Build-Linux
         secrets:

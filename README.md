@@ -8,7 +8,8 @@
 
 ## 2023 Updates
 - Build with github workflows
-- Hosted on https://tripletriad.supergoon.com
+- Cloud infra with terraform for hosting
+- Hosted on https://tripletriad.supergoon.com, instead of the simmer hosted.
 - Updated Unity to 2022.3.10
 - Bugfixes
 

@@ -9,9 +9,9 @@ locals {
   s3_origin = "s3-origin"
 }
 
-resource "aws_cloudfront_origin_access_control" "example" {
-  name                              = "example"
-  description                       = "Example Policy"
+resource "aws_cloudfront_origin_access_control" "access_control" {
+  name                              = "TripleTriadAccessControl"
+  description                       = "Triple triad access control bro"
   origin_access_control_origin_type = "s3"
   signing_behavior                  = "always"
   signing_protocol                  = "sigv4"
@@ -62,7 +62,6 @@ resource "aws_cloudfront_distribution" "triple_triad_distribution" {
   }
   price_class = "PriceClass_100"
 }
-# Configure the S3 bucket to allow CloudFront to access it
 
 resource "aws_s3_bucket_policy" "cloudfront_access_policy" {
   bucket = aws_s3_bucket.triple_triad_bucket.id
@@ -83,34 +82,3 @@ resource "aws_s3_bucket_policy" "cloudfront_access_policy" {
     }]
   })
 }
-# {
-#     "Version": "2012-10-17",
-#     "Statement": {
-#         "Sid": "AllowCloudFrontServicePrincipalReadOnly",
-#         "Effect": "Allow",
-#         "Principal": {
-#             "Service": "cloudfront.amazonaws.com"
-#         },
-#         "Action": "s3:GetObject",
-#         "Resource": "arn:aws:s3:::<S3 bucket name>/*",
-#         "Condition": {
-#             "StringEquals": {
-#                 "AWS:SourceArn": "arn:aws:cloudfront::<AWS account ID>:distribution/<CloudFront distribution ID>"
-#             }
-#         }
-#     }
-# }
-# {
-#     "Version": "2012-10-17",
-#     "Statement": [
-#         {
-#             "Sid": "3",
-#             "Effect": "Allow",
-#             "Principal": {
-#                 "AWS": "arn:aws:iam::cloudfront:user/CloudFront Origin Access Identity E2UAWQLWHHKE66"
-#             },
-#             "Action": "s3:GetObject",
-#             "Resource": "arn:aws:s3:::kjb-unity-static-supergoon/*"
-#         }
-#     ]
-# }

@@ -1,0 +1,17 @@
+{
+  "name": "E7.Introloop.Editor",
+  "references": [
+    "GUID:8a18b43bbefca455abece4fd62e82bba"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

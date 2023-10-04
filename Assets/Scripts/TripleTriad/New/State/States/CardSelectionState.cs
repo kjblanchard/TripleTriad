@@ -38,7 +38,7 @@ namespace ETF.TripleTriad
             IsMovingDown,
             IsMovingUp,
         }
-        
+
         #endregion
 
         public override void Startup(int additionalArgs = 0)
@@ -59,7 +59,7 @@ namespace ETF.TripleTriad
                 StartCoroutine(_ttDb.UpdateMyHandTripleTriadCardsWithRandomSelection());
             }
         }
-        
+
         public override void Execute()
         {
             ListenForUserInputs();
@@ -67,6 +67,13 @@ namespace ETF.TripleTriad
         }
 
         public override void End()
+        {
+            StopAllMovingCoroutines();
+        }
+
+        #region Functions
+
+        private void StopAllMovingCoroutines()
         {
             if (_continuousCoroutineReferenceDown != null)
             {
@@ -90,8 +97,6 @@ namespace ETF.TripleTriad
             }
         }
 
-        #region Functions
-
 
         private void ListenForUserInputs()
         {
@@ -99,41 +104,46 @@ namespace ETF.TripleTriad
             {
                 return;
             }
+
             if (Input.GetKeyDown(KeyCode.D) || (Input.GetButtonDown("right")))
             {
-                if (_continuousCoroutineReferenceRight != null)
-                {
-                    StopTheCoroutineScrollingRight();
-                }
+                // if (_continuousCoroutineReferenceRight != null)
+                // {
+                //     StopTheCoroutineScrollingRight();
+                // }
 
+                StopAllCoroutines();
                 _continuousCoroutineReferenceRight =
                     StartCoroutine(PageScrollContinuouslyCo(PageScrollDirections.GoingForward));
             }
             else if (Input.GetKeyDown(KeyCode.A) || (Input.GetButtonDown("left")))
             {
-                if (_continuousCoroutineReferenceLeft != null)
-                {
-                    StopTheCoroutineScrollingLeft();
-                }
+                // if (_continuousCoroutineReferenceLeft != null)
+                // {
+                //     StopTheCoroutineScrollingLeft();
+                // }
+                StopAllCoroutines();
                 _continuousCoroutineReferenceLeft =
                     StartCoroutine(PageScrollContinuouslyCo(PageScrollDirections.GoingBackward));
             }
             else if (Input.GetKeyDown(KeyCode.W) || (Input.GetButtonDown("up")))
             {
-                if (_continuousCoroutineReferenceUp != null)
-                {
-                    StopTheCoroutineScrollingUp();
-                }
+                // if (_continuousCoroutineReferenceUp != null)
+                // {
+                //     StopTheCoroutineScrollingUp();
+                // }
+                StopAllCoroutines();
 
                 _continuousCoroutineReferenceUp =
                     StartCoroutine(ScrollContinuously(WhichUpDownDirection.IsMovingUp));
             }
             else if (Input.GetKeyDown(KeyCode.S) || (Input.GetButtonDown("down")))
             {
-                if (_continuousCoroutineReferenceDown != null)
-                {
-                    StopTheCoroutineScrollingDown();
-                }
+                // if (_continuousCoroutineReferenceDown != null)
+                // {
+                //     StopTheCoroutineScrollingDown();
+                // }
+                StopAllCoroutines();
 
                 _continuousCoroutineReferenceDown =
                     StartCoroutine(ScrollContinuously(WhichUpDownDirection.IsMovingDown));
@@ -149,7 +159,7 @@ namespace ETF.TripleTriad
 
             if (Input.GetKeyUp(KeyCode.D) || (Input.GetButtonUp("right")))
             {
-                if (_continuousCoroutineReferenceRight!= null)
+                if (_continuousCoroutineReferenceRight != null)
                 {
                     StopTheCoroutineScrollingRight();
                 }

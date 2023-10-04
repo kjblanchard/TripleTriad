@@ -63,7 +63,7 @@ TextureImporter:
       213: 1314304779198169752
     second: greenRangerSheet_19
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -83,6 +83,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -92,8 +94,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -114,10 +116,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -169,6 +175,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -612,6 +630,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      greenRangerSheet_12: 5614536550178133076
+      greenRangerSheet_6: -8985458784661210669
+      greenRangerSheet_11: 2823293197510655577
+      greenRangerSheet_4: -7686805073592344438
+      greenRangerSheet_2: 5837108353316828077
+      greenRangerSheet_0: -3343337560369852937
+      greenRangerSheet_13: 720063239307857082
+      greenRangerSheet_14: 6394135925164947615
+      greenRangerSheet_18: 7118443411311422472
+      greenRangerSheet_8: 6924460151621516902
+      greenRangerSheet_19: 1314304779198169752
+      greenRangerSheet_9: 7039187579261781255
+      greenRangerSheet_5: 472679600376634561
+      greenRangerSheet_7: -6414130832987144969
+      greenRangerSheet_10: -8903161342020938338
+      greenRangerSheet_16: -4635578230532604657
+      greenRangerSheet_17: -6810478304773481992
+      greenRangerSheet_3: -4117107456485597956
+      greenRangerSheet_1: 8082289890391623182
+      greenRangerSheet_15: 2679116666404127377
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -291,7 +291,7 @@ TextureImporter:
       213: 21300190
     second: CorySheet_95
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -311,6 +311,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -320,8 +322,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -342,11 +344,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -357,7 +364,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -368,7 +376,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: iPhone
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -379,7 +388,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 1024
     resizeAlgorithm: 0
@@ -390,7 +400,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -401,6 +412,19 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2430,6 +2454,103 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      CorySheet_24: 21300048
+      CorySheet_44: 21300088
+      CorySheet_85: 21300170
+      CorySheet_41: 21300082
+      CorySheet_32: 21300064
+      CorySheet_4: 21300008
+      CorySheet_39: 21300078
+      CorySheet_79: 21300158
+      CorySheet_87: 21300174
+      CorySheet_23: 21300046
+      CorySheet_20: 21300040
+      CorySheet_43: 21300086
+      CorySheet_53: 21300106
+      CorySheet_90: 21300180
+      CorySheet_45: 21300090
+      CorySheet_38: 21300076
+      CorySheet_18: 21300036
+      CorySheet_14: 21300028
+      CorySheet_33: 21300066
+      CorySheet_63: 21300126
+      CorySheet_34: 21300068
+      CorySheet_50: 21300100
+      CorySheet_0: 21300000
+      CorySheet_59: 21300118
+      CorySheet_16: 21300032
+      CorySheet_37: 21300074
+      CorySheet_73: 21300146
+      CorySheet_88: 21300176
+      CorySheet_7: 21300014
+      CorySheet_82: 21300164
+      CorySheet_46: 21300092
+      CorySheet_66: 21300132
+      CorySheet_72: 21300144
+      CorySheet_48: 21300096
+      CorySheet_71: 21300142
+      CorySheet_60: 21300120
+      CorySheet_28: 21300056
+      CorySheet_83: 21300166
+      CorySheet_19: 21300038
+      CorySheet_27: 21300054
+      CorySheet_65: 21300130
+      CorySheet_49: 21300098
+      CorySheet_80: 21300160
+      CorySheet_92: 21300184
+      CorySheet_67: 21300134
+      CorySheet_54: 21300108
+      CorySheet_9: 21300018
+      CorySheet_11: 21300022
+      CorySheet_3: 21300006
+      CorySheet_77: 21300154
+      CorySheet_62: 21300124
+      CorySheet_2: 21300004
+      CorySheet_51: 21300102
+      CorySheet_75: 21300150
+      CorySheet_69: 21300138
+      CorySheet_91: 21300182
+      CorySheet_58: 21300116
+      CorySheet_15: 21300030
+      CorySheet_1: 21300002
+      CorySheet_5: 21300010
+      CorySheet_21: 21300042
+      CorySheet_40: 21300080
+      CorySheet_8: 21300016
+      CorySheet_36: 21300072
+      CorySheet_30: 21300060
+      CorySheet_10: 21300020
+      CorySheet_35: 21300070
+      CorySheet_70: 21300140
+      CorySheet_17: 21300034
+      CorySheet_78: 21300156
+      CorySheet_86: 21300172
+      CorySheet_76: 21300152
+      CorySheet_95: 21300190
+      CorySheet_89: 21300178
+      CorySheet_81: 21300162
+      CorySheet_55: 21300110
+      CorySheet_56: 21300112
+      CorySheet_61: 21300122
+      CorySheet_29: 21300058
+      CorySheet_31: 21300062
+      CorySheet_47: 21300094
+      CorySheet_26: 21300052
+      CorySheet_52: 21300104
+      CorySheet_64: 21300128
+      CorySheet_84: 21300168
+      CorySheet_94: 21300188
+      CorySheet_93: 21300186
+      CorySheet_74: 21300148
+      CorySheet_6: 21300012
+      CorySheet_68: 21300136
+      CorySheet_13: 21300026
+      CorySheet_12: 21300024
+      CorySheet_57: 21300114
+      CorySheet_22: 21300044
+      CorySheet_25: 21300050
+      CorySheet_42: 21300084
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

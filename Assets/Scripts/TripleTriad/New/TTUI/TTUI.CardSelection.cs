@@ -11,7 +11,7 @@ namespace ETF.TripleTriad
         [Range(0, 1)] [SerializeField] float _continuousFastAutoScrollSpeed;
 
 
-        [Header("Card Selection Stuff")] 
+        [Header("Card Selection Stuff")]
         [SerializeField] private Canvas _cardSelectionCanvas;
         [Header("State Controls")] public bool isLoading = false;
 
@@ -56,7 +56,7 @@ namespace ETF.TripleTriad
         Image[] myHandCardImages;
 
         [SerializeField] Transform[] myHandFingerPoints;
-        
+
 
 
         public void GeneratePages()
@@ -73,7 +73,7 @@ namespace ETF.TripleTriad
                 }
             }
             listOfPages.Clear();
-            
+
 
             for (int i = 0; i < _totalPages; i++)
             {
@@ -314,8 +314,8 @@ namespace ETF.TripleTriad
         {
             _cardSelectionCanvas.enabled = true;
             _cardConfirmCanvas.enabled = false;
-            
-            
+
+
         }
 
         public int RetrieveNumberOfCardsActiveOnPage(int currentPageToCheck)
@@ -337,6 +337,6 @@ namespace ETF.TripleTriad
         {
             _cardSelectionCanvas.enabled = false;
         }
-        
+
     }
 }

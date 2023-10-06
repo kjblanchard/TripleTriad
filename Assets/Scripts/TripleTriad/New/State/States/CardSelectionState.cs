@@ -12,12 +12,10 @@ namespace ETF.TripleTriad
         private int _numberToIncrement;
         private bool _regularAutoScrollSpeed;
 
-
-        //reference to the running coroutine
-        Coroutine _continuousCoroutineReferenceDown;
-        Coroutine _continuousCoroutineReferenceLeft;
-        Coroutine _continuousCoroutineReferenceRight;
-        Coroutine _continuousCoroutineReferenceUp;
+        bool _rightButtonDown, _leftButtonDown, _upButtonDown, _downButtonDown = false;
+        int _currentUpDownIterations = 0;
+        float _pageTurnTime = 0;
+        float _upDownSelectionWaitTime = 0;
 
 
         //enums to use for methods
@@ -58,95 +56,49 @@ namespace ETF.TripleTriad
                 InitializeDbForCardSelection();
                 StartCoroutine(_ttDb.UpdateMyHandTripleTriadCardsWithRandomSelection());
             }
+            _leftButtonDown = _rightButtonDown = false;
         }
 
         public override void Execute()
         {
+            if (_pageTurnTime > 0)
+            {
+                Math.Clamp(_pageTurnTime -= Time.deltaTime, 0, float.MaxValue);
+            }
+            if (_upDownSelectionWaitTime > 0)
+            {
+                Math.Clamp(_upDownSelectionWaitTime -= Time.deltaTime, 0, float.MaxValue);
+            }
             ListenForUserInputs();
             _ttUi.KeepFingerOnProperLocationInCardSelection();
         }
 
         public override void End()
         {
-            StopAllMovingCoroutines();
         }
 
         #region Functions
 
-        private void StopAllMovingCoroutines()
-        {
-            if (_continuousCoroutineReferenceDown != null)
-            {
-                StopCoroutine(_continuousCoroutineReferenceDown);
-
-            }
-            if (_continuousCoroutineReferenceUp != null)
-            {
-                StopCoroutine(_continuousCoroutineReferenceUp);
-
-            }
-            if (_continuousCoroutineReferenceRight != null)
-            {
-                StopCoroutine(_continuousCoroutineReferenceRight);
-
-            }
-            if (_continuousCoroutineReferenceLeft != null)
-            {
-                StopCoroutine(_continuousCoroutineReferenceLeft);
-
-            }
-        }
-
-
         private void ListenForUserInputs()
         {
-            if (_ttUi.isLoading)
-            {
-                return;
-            }
 
             if (Input.GetKeyDown(KeyCode.D) || (Input.GetButtonDown("right")))
             {
-                // if (_continuousCoroutineReferenceRight != null)
-                // {
-                //     StopTheCoroutineScrollingRight();
-                // }
-
-                StopAllCoroutines();
-                _continuousCoroutineReferenceRight =
-                    StartCoroutine(PageScrollContinuouslyCo(PageScrollDirections.GoingForward));
+                _rightButtonDown = true;
             }
             else if (Input.GetKeyDown(KeyCode.A) || (Input.GetButtonDown("left")))
             {
-                // if (_continuousCoroutineReferenceLeft != null)
-                // {
-                //     StopTheCoroutineScrollingLeft();
-                // }
-                StopAllCoroutines();
-                _continuousCoroutineReferenceLeft =
-                    StartCoroutine(PageScrollContinuouslyCo(PageScrollDirections.GoingBackward));
+                _leftButtonDown = true;
             }
             else if (Input.GetKeyDown(KeyCode.W) || (Input.GetButtonDown("up")))
             {
-                // if (_continuousCoroutineReferenceUp != null)
-                // {
-                //     StopTheCoroutineScrollingUp();
-                // }
-                StopAllCoroutines();
-
-                _continuousCoroutineReferenceUp =
-                    StartCoroutine(ScrollContinuously(WhichUpDownDirection.IsMovingUp));
+                _upButtonDown = true;
+                // _currentUpDownIterations += Time.deltaTime;
             }
             else if (Input.GetKeyDown(KeyCode.S) || (Input.GetButtonDown("down")))
             {
-                // if (_continuousCoroutineReferenceDown != null)
-                // {
-                //     StopTheCoroutineScrollingDown();
-                // }
-                StopAllCoroutines();
-
-                _continuousCoroutineReferenceDown =
-                    StartCoroutine(ScrollContinuously(WhichUpDownDirection.IsMovingDown));
+                _downButtonDown = true;
+                // _currentUpDownIterations += Time.deltaTime;
             }
             else if (Input.GetKeyDown(KeyCode.Space) || (Input.GetButtonDown("Fire1")))
             {
@@ -159,36 +111,46 @@ namespace ETF.TripleTriad
 
             if (Input.GetKeyUp(KeyCode.D) || (Input.GetButtonUp("right")))
             {
-                if (_continuousCoroutineReferenceRight != null)
-                {
-                    StopTheCoroutineScrollingRight();
-                }
+                _rightButtonDown = false;
             }
             else if (Input.GetKeyUp(KeyCode.A) || (Input.GetButtonUp("left")))
             {
-                if (_continuousCoroutineReferenceLeft != null)
-                {
-                    StopTheCoroutineScrollingLeft();
-                }
+                _leftButtonDown = false;
             }
             else if (Input.GetKeyUp(KeyCode.W) || (Input.GetButtonUp("up")))
             {
-                if (_continuousCoroutineReferenceUp != null)
-                {
-                    StopTheCoroutineScrollingUp();
-                }
+                _upButtonDown = false;
+                _currentUpDownIterations = 0;
             }
             else if (Input.GetKeyUp(KeyCode.S) || (Input.GetButtonUp("down")))
             {
-                if (_continuousCoroutineReferenceDown != null)
-                {
-                    StopTheCoroutineScrollingDown();
-                }
+                _downButtonDown = false;
+                _currentUpDownIterations = 0;
+            }
+            if (_rightButtonDown)
+            {
+                ChangePage(PageScrollDirections.GoingForward);
+            }
+            if (_leftButtonDown)
+            {
+                ChangePage(PageScrollDirections.GoingBackward);
+            }
+            if (_upButtonDown)
+            {
+                MoveCursorUpDownInMenu(WhichUpDownDirection.IsMovingUp);
+            }
+            if (_downButtonDown)
+            {
+                MoveCursorUpDownInMenu(WhichUpDownDirection.IsMovingDown);
             }
         }
 
         private void ChangePage(PageScrollDirections whichWayToScroll)
         {
+            if (_pageTurnTime > 0)
+                return;
+            _pageTurnTime = _ttUi.RetrieveRegularAutoScrollSpeed() * .75f;
+
             switch (whichWayToScroll)
             {
                 case PageScrollDirections.GoingForward:
@@ -217,7 +179,13 @@ namespace ETF.TripleTriad
 
         private void MoveCursorUpDownInMenu(WhichUpDownDirection whichWayToScroll)
         {
+            if (_upDownSelectionWaitTime > 0)
+                return;
+
+            _upDownSelectionWaitTime = _currentUpDownIterations >= 2 ? _ttUi.RetrieveFastAutoScrollSpeed() : _ttUi.RetrieveRegularAutoScrollSpeed();
+
             if (!_ttLogic.CanIScrollOnCardSelect(whichWayToScroll)) return;
+            _currentUpDownIterations++;
             if (_ttLogic.AreYouGoingToLoopInCardSelection(whichWayToScroll))
             {
                 LoopInCurrentMenu(whichWayToScroll);
@@ -226,6 +194,7 @@ namespace ETF.TripleTriad
             {
                 MoveCursorOneSpotInInventory(whichWayToScroll);
             }
+
 
             SoundManager.instance.PlaySFX(0);
             _ttUi.UpdateTheBigCardDisplayUi();
@@ -263,47 +232,6 @@ namespace ETF.TripleTriad
             _ttUi.UpdateTheBigCardDisplayUi();
         }
 
-
-        private IEnumerator ScrollContinuously(WhichUpDownDirection scrollDirection)
-
-        {
-            _numberToIncrement = 0;
-            _regularAutoScrollSpeed = true;
-            while (true)
-            {
-                if (_regularAutoScrollSpeed)
-                {
-                    MoveCursorUpDownInMenu(scrollDirection);
-                    _numberToIncrement++;
-                    if (_numberToIncrement >= 2)
-                    {
-                        _regularAutoScrollSpeed = false;
-                    }
-
-                    yield return new WaitForSeconds(_ttUi.RetrieveRegularAutoScrollSpeed());
-
-                }
-                else if (!_regularAutoScrollSpeed)
-                {
-                    MoveCursorUpDownInMenu(scrollDirection);
-                    yield return new WaitForSeconds(_ttUi.RetrieveFastAutoScrollSpeed());
-
-                }
-            }
-            // ReSharper disable once IteratorNeverReturns
-        }
-
-        private IEnumerator PageScrollContinuouslyCo(PageScrollDirections whichWayToScroll)
-        {
-            while (true)
-            {
-                ChangePage(whichWayToScroll);
-                yield return new WaitForSeconds(_ttUi.RetrieveRegularAutoScrollSpeed() * .75f);
-
-            }
-            // ReSharper disable once IteratorNeverReturns
-        }
-
         private void CardSelection()
         {
             if (!_ttLogic.CanSelectCardInCardSelection(_ttDb.RetrieveCardSelectionCurrentSpotInInventory()))
@@ -324,7 +252,6 @@ namespace ETF.TripleTriad
 
         private void ModifyCardQuantity(ModifyingCardQuantity whatToDoWithQuantity)
         {
-            //used to modify the card select quantity in screen and in the db
             switch (whatToDoWithQuantity)
             {
                 case ModifyingCardQuantity.IsAddingCard:
@@ -355,7 +282,6 @@ namespace ETF.TripleTriad
 
         private void AddChoiceToCardSelectionList()
         {
-            //used when you press select
             var cardChoice = new LastItemChosen(_ttDb.RetrieveCardSelectionCurrentPageNumber(),
                 _ttDb.RetrieveCardSelectionFingerLocationOnCurrentPage(),
                 _ttDb.RetrieveCardSelectionCurrentSpotInInventory());
@@ -364,32 +290,12 @@ namespace ETF.TripleTriad
 
         private void CancelLastSelection()
         {
-            //used when you press cancel button
             if (!_ttLogic.CanRemoveCardFromCardSelection()) return;
             ModifyCardQuantity(ModifyingCardQuantity.IsRemovingCard);
             _ttUi.TurnOffHandAnimatorForCancel();
-            //ttMan.ttUi.PlayRestAnimation(ttMan.ttDb.currentHandSelectionsList.Count - 1);
             _ttDb.currentHandSelectionsList.RemoveAt(_ttDb.currentHandSelectionsList.Count - 1);
             SoundManager.instance.PlaySFX(1);
         }
-
-        private void StopTheCoroutineScrollingRight()
-        {
-            StopCoroutine(_continuousCoroutineReferenceRight);
-        }
-        private void StopTheCoroutineScrollingUp()
-        {
-            StopCoroutine(_continuousCoroutineReferenceUp);
-        }
-        private void StopTheCoroutineScrollingDown()
-        {
-            StopCoroutine(_continuousCoroutineReferenceDown);
-        }
-        private void StopTheCoroutineScrollingLeft()
-        {
-            StopCoroutine(_continuousCoroutineReferenceLeft);
-        }
-
 
         private void InitializeDbForCardSelection()
         {
